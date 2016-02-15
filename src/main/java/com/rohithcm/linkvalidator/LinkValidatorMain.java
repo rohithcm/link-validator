@@ -25,10 +25,9 @@ public class LinkValidatorMain {
 
     private static void initSetup() {
         final String baseUrlString = "http://www.google.com";
-        logger.debug("Base URL identified as " + baseUrlString);
-        logger.info("Base URL identified as " + baseUrlString);
+        logger.info("Base URL identified : " + baseUrlString);
         final int validationLevelNumber = 1;
-        baseUrl = UrlUtil.getURLFromString(baseUrlString);
+        baseUrl = UrlUtil.getBaseURLFromString(baseUrlString);
         validationDepth = ValidationDepth.getValidationLevel(validationLevelNumber);
         if (validationDepth.equals(ValidationDepth.INVALID))
             throw new InvalidLevelException("Validation Level " + validationLevelNumber + " is invalid");
