@@ -1,15 +1,14 @@
 package com.rohithcm.linkvalidator;
 
+import com.rohithcm.linkvalidator.beans.HTMLTableRow;
 import com.rohithcm.linkvalidator.beans.URLWrapper;
 import com.rohithcm.linkvalidator.enums.ValidationDepth;
 import com.rohithcm.linkvalidator.utils.ReportUtil;
-import org.apache.commons.collections.CollectionUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.net.URL;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.LinkedBlockingDeque;
@@ -20,53 +19,43 @@ import java.util.concurrent.atomic.AtomicReference;
  */
 public class TriggerValidation {
 
-    //private static ThreadLocal<List<URLWrapper>> urlAggregator;
-    //private static AtomicReference<List<URLWrapper>> urlAggregator;
-    //public static LinkedList<URLWrapper> urlAggregator = Collections.synchronizedList(new LinkedList<URLWrapper>());
+    public static ThreadLocal<HTMLTableRow> htmlTableRow;
     public static LinkedBlockingDeque<URLWrapper> urlAggregator = new LinkedBlockingDeque<URLWrapper>();
-    private static ThreadLocal<String> htmlReport;
+    public static ConcurrentHashMap<URL, Boolean> urlSet = new ConcurrentHashMap<URL, Boolean>();
+    private static AtomicReference<String> htmlReport;
+    private static Logger logger = LoggerFactory.getLogger(TriggerValidation.class);
 
     public static void trigger(final URL baseURL) {
-        initThreadLocals();
-        List<URLWrapper> baseURLWrapper = new ArrayList<URLWrapper>();
-        baseURLWrapper.add(new URLWrapper(LinkValidatorMain.baseUrl, LinkValidatorMain.baseUrl, ValidationDepth.ONE));
-        //urlAggregator = new AtomicReference<List<URLWrapper>>(baseURLWrapper);
-        urlAggregator.offer(new URLWrapper(LinkValidatorMain.baseUrl, LinkValidatorMain.baseUrl, ValidationDepth.ONE));
+        initSynchronizedResources();
 
-        ExecutorService executor = Executors.newFixedThreadPool(10);
+        ExecutorService executor = Executors.newCachedThreadPool();
+        executeThreads(executor);
 
-        //while (!urlAggregator.get().isEmpty()) {
-        while (!urlAggregator.isEmpty()) {
-            Runnable validatorWorker = new ValidatorWorkerThread();
-            executor.execute(validatorWorker);
-        }
         addHTMLReportTail();
     }
 
-    public static void initThreadLocals() {
-        /*urlAggregator = new ThreadLocal<List<URLWrapper>>() {
-            @Override
-            protected List<URLWrapper> initialValue() {
-                List<URLWrapper> list = new ArrayList<URLWrapper>();
-                list.add(new URLWrapper(LinkValidatorMain.baseUrl, LinkValidatorMain.baseUrl, ValidationDepth.ONE));
-                return list;
-            }
-        };*/
+    private static void executeThreads(ExecutorService executor) {
 
-        htmlReport = new ThreadLocal<String>() {
-            @Override
-            protected String initialValue() {
-                return ReportUtil.getHtmlTableHead().toString();
+        while (!urlAggregator.isEmpty()) {
+            logger.info("URL list identified as not empty");
+            if (executor.isTerminated())
+                executor = Executors.newCachedThreadPool();
+            for (int i = 0; i < urlAggregator.size(); i++) {
+                Runnable validatorWorker = new ValidatorWorkerThread();
+                executor.execute(validatorWorker);
             }
-        };
+            executor.shutdown();
+            while (!executor.isTerminated()) ;
+        }
+
+        logger.info("Finished all threads");
     }
 
-    /*public static List<URLWrapper> getURLsThreadSafe() {
-        //return urlAggregator.get();
-        return urlAggregator;
-    }*/
-    public static void addURLsThreadSafe(List<URLWrapper> updatedList) {
-        //urlAggregator.getAndSet(updatedList);
+    public static void initSynchronizedResources() {
+        logger.info("Adding Table Headers to HTML Report");
+        htmlReport = new AtomicReference<String>(ReportUtil.getHtmlTableHead().toString());
+        logger.info("Initializing the url list with the base url");
+        urlAggregator.offer(new URLWrapper(LinkValidatorMain.baseUrl, LinkValidatorMain.baseUrl, ValidationDepth.ONE));
     }
 
     public static String getHtmlReportThreadSafe() {
@@ -78,8 +67,7 @@ public class TriggerValidation {
     }
 
     public static void addHTMLReportTail() {
-        StringBuilder sb = new StringBuilder(htmlReport.get());
-        sb.append(ReportUtil.getHtmlTableTail());
-        htmlReport.set(sb.toString());
+        logger.info("Finished appending to the HTML Report");
+        htmlReport.set(htmlReport.get() + ReportUtil.getHtmlTableTail());
     }
 }

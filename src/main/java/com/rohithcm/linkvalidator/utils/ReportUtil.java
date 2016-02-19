@@ -2,6 +2,7 @@ package com.rohithcm.linkvalidator.utils;
 
 import com.rohithcm.linkvalidator.beans.HTMLTableRow;
 import com.rohithcm.linkvalidator.enums.URLStatus;
+import com.rohithcm.linkvalidator.enums.ValidationDepth;
 import com.rohithcm.linkvalidator.exceptions.ReportGenerationException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -45,6 +46,8 @@ public class ReportUtil {
     }
 
     public static String appendPageStatusToReport(final HTMLTableRow htmlTableRow) {
+        logger.info("==========================URL : " + htmlTableRow.getUrl());
+        logger.info("==========================URL : " + htmlTableRow.getStatus());
         StringBuilder sb = new StringBuilder();
         sb.append("<tr>");
         sb.append("<td style = \"padding: 6px; border: 1px solid #ccc; text-align: left;\"> " + htmlTableRow.getUrl());
@@ -62,6 +65,31 @@ public class ReportUtil {
             sb.append("<td style = \"padding: 6px; border: 1px solid #ccc; text-align: left;\"> <font color=\"#8B0000\">" + htmlTableRow.getComments() + "</font>");
         else
             sb.append("<td style = \"padding: 6px; border: 1px solid #ccc; text-align: left;\"> " + htmlTableRow.getComments());
+        sb.append("</td>");
+        sb.append("</tr>");
+        return sb.toString();
+    }
+
+    public static String appendPageStatusToReport(final String url, final String parentUrl, final ValidationDepth validationDepth, final URLStatus status, final String comment) {
+        logger.info("==========================URL : " + url);
+        logger.info("==========================URL : " + status);
+        StringBuilder sb = new StringBuilder();
+        sb.append("<tr>");
+        sb.append("<td style = \"padding: 6px; border: 1px solid #ccc; text-align: left;\"> " + url);
+        sb.append("</td>");
+        sb.append("<td style = \"padding: 6px; border: 1px solid #ccc; text-align: left;\"> " + parentUrl);
+        sb.append("</td>");
+        sb.append("<td style = \"padding: 6px; border: 1px solid #ccc; text-align: left;\"> " + validationDepth);
+        sb.append("</td>");
+        if (status.equals(URLStatus.FAIL))
+            sb.append("<td style = \"padding: 6px; border: 1px solid #ccc; text-align: left;\"> <font color=\"#8B0000\">" + status + "</font>");
+        else
+            sb.append("<td style = \"padding: 6px; border: 1px solid #ccc; text-align: left;\"> " + status);
+        sb.append("</td>");
+        if (!comment.equals(""))
+            sb.append("<td style = \"padding: 6px; border: 1px solid #ccc; text-align: left;\"> <font color=\"#8B0000\">" + comment + "</font>");
+        else
+            sb.append("<td style = \"padding: 6px; border: 1px solid #ccc; text-align: left;\"> " + comment);
         sb.append("</td>");
         sb.append("</tr>");
         return sb.toString();

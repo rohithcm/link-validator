@@ -18,17 +18,19 @@ public class LinkValidatorMain {
     public static ValidationDepth validationDepth;
 
     public static void main(String[] args) {
+        logger.info("========== Link Validation begins ===============");
         initSetup();
         TriggerValidation.trigger(baseUrl);
         ReportUtil.generateHtmlReport(TriggerValidation.getHtmlReportThreadSafe());
     }
 
     private static void initSetup() {
-        final String baseUrlString = "http://www.google.com";
+        final String baseUrlString = "http://www.google.co.in/";
         logger.info("Base URL identified : " + baseUrlString);
         final int validationLevelNumber = 1;
         baseUrl = UrlUtil.getBaseURLFromString(baseUrlString);
         validationDepth = ValidationDepth.getValidationLevel(validationLevelNumber);
+        logger.info("Validation Depth identified : " + validationDepth);
         if (validationDepth.equals(ValidationDepth.INVALID))
             throw new InvalidLevelException("Validation Level " + validationLevelNumber + " is invalid");
     }

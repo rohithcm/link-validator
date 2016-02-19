@@ -17,11 +17,11 @@ public class UrlUtil {
     public static URL getBaseURLFromString(final String baseUrlString) {
         URL url;
         try {
-                url = new URL(baseUrlString);
+            url = new URL(baseUrlString);
         } catch (MalformedURLException e) {
             e.printStackTrace();
-            logger.error(baseUrlString+" forming invalid url");
-            throw new LinkFormationException(baseUrlString+" forming invalid url");
+            logger.error(baseUrlString + " forming invalid url");
+            throw new LinkFormationException(baseUrlString + " forming invalid url");
         }
         return url;
     }
@@ -30,13 +30,13 @@ public class UrlUtil {
         URL url;
         try {
             String baseUrlString = LinkValidatorMain.baseUrl.toString();
-            if(urlString.startsWith(baseUrlString))
+            if (urlString.startsWith("http") || urlString.startsWith("https"))
                 url = new URL(urlString);
             else
                 url = new URL(baseUrlString + urlString);
         } catch (MalformedURLException e) {
-            logger.error(urlString+" forming invalid url");
-            throw new LinkFormationException(urlString+" forming invalid url");
+            logger.error(urlString + " forming invalid url");
+            throw new LinkFormationException(urlString + " forming invalid url");
         }
         return url;
     }
