@@ -1,0 +1,5 @@
+baseurlfile: BaseURLs.txt
+validationlevel: 2
+errorstrings:
+ - Viewed
+ - xyz

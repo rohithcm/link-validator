@@ -5,6 +5,7 @@ import com.rohithcm.linkvalidator.enums.ValidationDepth;
 
 /**
  * Created by rohithcm on 21/01/16.
+ * Identifies HTML Table Row in the report
  */
 public class HTMLTableRow {
     private String url;

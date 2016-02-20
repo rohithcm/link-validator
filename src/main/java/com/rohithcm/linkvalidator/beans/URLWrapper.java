@@ -6,6 +6,7 @@ import java.net.URL;
 
 /**
  * Created by rohithcm on 21/01/16.
+ * Wrapper to URL component having subcomponents url, parentUrl and validationdepth
  */
 public class URLWrapper {
     private URL url;

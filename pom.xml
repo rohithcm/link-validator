@@ -32,5 +32,11 @@
             <version>1.7.16</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.esotericsoftware.yamlbeans</groupId>
+            <artifactId>yamlbeans</artifactId>
+            <version>1.06</version>
+        </dependency>
+
     </dependencies>
 </project>

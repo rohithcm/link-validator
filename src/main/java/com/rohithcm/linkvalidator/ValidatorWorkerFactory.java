@@ -1,6 +1,6 @@
 package com.rohithcm.linkvalidator;
 
-import com.rohithcm.linkvalidator.beans.HTMLTableRow;
+import com.rohithcm.linkvalidator.beans.PropertyBean;
 import com.rohithcm.linkvalidator.beans.URLWrapper;
 import com.rohithcm.linkvalidator.enums.ValidationDepth;
 import com.rohithcm.linkvalidator.utils.ReportUtil;
@@ -16,26 +16,32 @@ import java.util.concurrent.atomic.AtomicReference;
 
 /**
  * Created by rohithcm on 21/01/16.
+ * Class containing executor to trigger ValidationWorkerThreads
  */
-public class TriggerValidation {
+public class ValidatorWorkerFactory {
 
-    public static ThreadLocal<HTMLTableRow> htmlTableRow;
     public static LinkedBlockingDeque<URLWrapper> urlAggregator = new LinkedBlockingDeque<URLWrapper>();
-    public static ConcurrentHashMap<URL, Boolean> urlSet = new ConcurrentHashMap<URL, Boolean>();
+    public static ConcurrentHashMap<URL, Boolean> urlHistory = new ConcurrentHashMap<URL, Boolean>();
     private static AtomicReference<String> htmlReport;
-    private static Logger logger = LoggerFactory.getLogger(TriggerValidation.class);
+    private static Logger logger = LoggerFactory.getLogger(ValidatorWorkerFactory.class);
 
-    public static void trigger(final URL baseURL) {
+    /**
+     * Triggering point for ValidationWorkerThreads
+     */
+    public static void trigger() {
         initSynchronizedResources();
 
         ExecutorService executor = Executors.newCachedThreadPool();
-        executeThreads(executor);
+        executeValidationThreads(executor);
 
         addHTMLReportTail();
     }
 
-    private static void executeThreads(ExecutorService executor) {
+    @SuppressWarnings("StatementWithEmptyBody")
+    private static void executeValidationThreads(ExecutorService executor) {
+        logger.info("========== Link Validation begins ===============");
 
+        // Thread execution until the URL to Validate list is empty
         while (!urlAggregator.isEmpty()) {
             logger.info("URL list identified as not empty");
             if (executor.isTerminated())
@@ -45,17 +51,20 @@ public class TriggerValidation {
                 executor.execute(validatorWorker);
             }
             executor.shutdown();
+            // Wait till executor is terminated.
             while (!executor.isTerminated()) ;
+            // Loop is repeated if url list is populated with new entries
         }
 
-        logger.info("Finished all threads");
+        logger.info("Finished all validation threads");
     }
 
     public static void initSynchronizedResources() {
         logger.info("Adding Table Headers to HTML Report");
-        htmlReport = new AtomicReference<String>(ReportUtil.getHtmlTableHead().toString());
-        logger.info("Initializing the url list with the base url");
-        urlAggregator.offer(new URLWrapper(LinkValidatorMain.baseUrl, LinkValidatorMain.baseUrl, ValidationDepth.ONE));
+        htmlReport = new AtomicReference<String>(ReportUtil.getHtmlTableHead());
+        logger.info("Initializing the url list with the base urls");
+        for (URL baseUrl : PropertyBean.getInstance().getBaseUrls())
+            urlAggregator.offer(new URLWrapper(baseUrl, baseUrl, ValidationDepth.ONE));
     }
 
     public static String getHtmlReportThreadSafe() {

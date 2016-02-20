@@ -1,9 +1,8 @@
 package com.rohithcm.linkvalidator.enums;
 
-import com.rohithcm.linkvalidator.LinkValidatorMain;
-
 /**
  * Created by rohithcm on 21/01/16.
+ * Identifies the depth of validation.
  */
 public enum ValidationDepth {
     ONE(1), TWO(2), THREE(3), INVALID(-1);
