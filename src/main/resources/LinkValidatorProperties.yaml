@@ -1,5 +1,5 @@
 baseurlfile: BaseURLs.txt
 validationlevel: 2
 errorstrings:
- - Viewed
- - xyz
+ - This page is inactive for maintenance
+ - Yikes!!

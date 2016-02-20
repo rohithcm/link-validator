@@ -21,9 +21,7 @@ public class ReportUtil {
 
     public static String getHtmlTableHead() {
         StringBuffer sb = new StringBuffer();
-        sb.append("<html>");
-        sb.append("<head>");
-        sb.append("</head>");
+
         sb.append("<table>");
         sb.append("<th style = \"background: #333; color: white; font-weight: bold; padding: 6px; border: 1px solid #ccc; text-align: left;\"> Validated Url");
         sb.append("</th>");
@@ -66,7 +64,7 @@ public class ReportUtil {
         if (statusCode != 200)
             sb.append("<td style = \"padding: 6px; border: 1px solid #ccc; text-align: left;\"> <font color=\"#8B0000\">" + statusCode + "</font>");
         else
-            sb.append("<td style = \"padding: 6px; border: 1px solid #ccc; text-align: left;\"> ");
+            sb.append("<td style = \"padding: 6px; border: 1px solid #ccc; text-align: left;\"> " + statusCode);
         sb.append("</td>");
         if (!comment.equals(""))
             sb.append("<td style = \"padding: 6px; border: 1px solid #ccc; text-align: left;\"> <font color=\"#8B0000\">" + comment + "</font>");
@@ -87,5 +85,14 @@ public class ReportUtil {
             logger.error("Generating html report file failed");
             throw new ReportGenerationException("Generating html report file failed");
         }
+    }
+
+    public static String addURLsCountToReport(final int count) {
+        StringBuffer sb = new StringBuffer();
+        sb.append("<html>");
+        sb.append("<head>Total URLs identfied is "+count);
+        sb.append("</head>");
+        sb.append("<br/>");
+        return sb.toString();
     }
 }

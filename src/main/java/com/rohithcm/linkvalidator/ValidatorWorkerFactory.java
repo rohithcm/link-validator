@@ -4,6 +4,7 @@ import com.rohithcm.linkvalidator.beans.PropertyBean;
 import com.rohithcm.linkvalidator.beans.URLWrapper;
 import com.rohithcm.linkvalidator.enums.ValidationDepth;
 import com.rohithcm.linkvalidator.utils.ReportUtil;
+import org.apache.commons.httpclient.MultiThreadedHttpConnectionManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -34,6 +35,12 @@ public class ValidatorWorkerFactory {
         ExecutorService executor = Executors.newCachedThreadPool();
         executeValidationThreads(executor);
 
+        afterValidation();
+    }
+
+    private static void afterValidation() {
+        MultiThreadedHttpConnectionManager.shutdownAll();
+        addTotalLinksValidatedToReport();
         addHTMLReportTail();
     }
 
@@ -78,5 +85,11 @@ public class ValidatorWorkerFactory {
     public static void addHTMLReportTail() {
         logger.info("Finished appending to the HTML Report");
         htmlReport.set(htmlReport.get() + ReportUtil.getHtmlTableTail());
+    }
+
+    public static void addTotalLinksValidatedToReport() {
+        final int totalURLcount = urlHistory.size() + PropertyBean.getInstance().getBaseUrls().size();
+        logger.info("Total links validated : " + totalURLcount);
+        htmlReport.set(ReportUtil.addURLsCountToReport(totalURLcount) + htmlReport.get());
     }
 }

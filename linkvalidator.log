@@ -1,0 +1,1542 @@
+2016-02-20 17:47:07 INFO  PropertyReaderUtil:62 - Reading properties from file : LinkValidatorProperties.yaml
+2016-02-20 17:47:07 INFO  PropertyReaderUtil:29 - Loading base urls from file : BaseURLs.txt
+2016-02-20 17:47:07 INFO  PropertyReaderUtil:35 - BaseURL identified : https://www.google.co.in
+2016-02-20 17:47:07 INFO  PropertyReaderUtil:35 - BaseURL identified : http://www.gmail.com/
+2016-02-20 17:47:08 INFO  PropertyReaderUtil:52 - Validation Depth identified : TWO
+2016-02-20 17:47:08 INFO  PropertyReaderUtil:57 - Error Strings identified : [Viewed, xyz]
+2016-02-20 17:47:08 INFO  ValidatorWorkerFactory:63 - Adding Table Headers to HTML Report
+2016-02-20 17:47:08 INFO  ValidatorWorkerFactory:65 - Initializing the url list with the base urls
+2016-02-20 17:47:08 INFO  ValidatorWorkerFactory:42 - ========== Link Validation begins ===============
+2016-02-20 17:47:08 INFO  ValidatorWorkerFactory:46 - URL list identified as not empty
+2016-02-20 17:47:08 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in
+2016-02-20 17:47:08 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.gmail.com/
+2016-02-20 17:47:15 WARN  HTMLDivElement:996 - Unimplemented behavior: #default#userdata
+2016-02-20 17:47:15 INFO  ValidatorWorkerThread:85 - https://www.google.co.in is a valid url
+2016-02-20 17:47:15 INFO  ValidatorWorkerThread:53 - Number of child urls identified : 39
+2016-02-20 17:47:15 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:1});" class="gbzt gbz0l gbp1" id="gb_1" href="https://www.google.co.in/webhp?tab=ww">]
+2016-02-20 17:47:15 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:2});" class="gbzt" id="gb_2" href="https://www.google.co.in/imghp?hl=en&amp;tab=wi">]
+2016-02-20 17:47:16 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:8});" class="gbzt" id="gb_8" href="https://maps.google.co.in/maps?hl=en&amp;tab=wl">]
+2016-02-20 17:47:17 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:78});" class="gbzt" id="gb_78" href="https://play.google.com/?hl=en&amp;tab=w8">]
+2016-02-20 17:47:17 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:36});" class="gbzt" id="gb_36" href="https://www.youtube.com/?gl=IN&amp;tab=w1">]
+2016-02-20 17:47:19 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:5});" class="gbzt" id="gb_5" href="https://news.google.co.in/nwshp?hl=en&amp;tab=wn">]
+2016-02-20 17:47:19 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:23});" class="gbzt" id="gb_23" href="https://mail.google.com/mail/?tab=wm">]
+2016-02-20 17:47:19 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 17:47:19 INFO  ValidatorWorkerThread:85 - http://www.gmail.com/ is a valid url
+2016-02-20 17:47:19 INFO  ValidatorWorkerThread:53 - Number of child urls identified : 7
+2016-02-20 17:47:19 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:49});" class="gbzt" id="gb_49" href="https://drive.google.com/?tab=wo">]
+2016-02-20 17:47:20 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://support.google.com/accounts/?p=securesignin&amp;hl=en" target="_blank">]
+2016-02-20 17:47:20 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a class="gbgt" id="gbztm" href="https://www.google.co.in/intl/en/options/" onclick="gbar.tg(event,this)" aria-haspopup="true" aria-owns="gbd">]
+2016-02-20 17:47:20 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a id="link-forgot-passwd" href="https://accounts.google.com/RecoverAccount?service=mail&amp;continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;ignoreShadow=0&amp;hl=en" class="need-help-reverse">]
+2016-02-20 17:47:20 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:24});" class="gbmt" id="gb_24" href="https://www.google.com/calendar?tab=wc">]
+2016-02-20 17:47:20 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a id="link-signup" href="https://accounts.google.com/SignUp?service=mail&amp;continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;ltmpl=default">]
+2016-02-20 17:47:20 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.com/intl/en/about" target="_blank">]
+2016-02-20 17:47:20 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:51});" class="gbmt" id="gb_51" href="https://translate.google.co.in/?hl=en&amp;tab=wT">]
+2016-02-20 17:47:20 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://accounts.google.com/TOS?loc=IN&amp;hl=en&amp;privacy=true" target="_blank">]
+2016-02-20 17:47:20 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:10});" class="gbmt" id="gb_10" href="https://books.google.co.in/bkshp?hl=en&amp;tab=wp">]
+2016-02-20 17:47:20 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://accounts.google.com/TOS?loc=IN&amp;hl=en" target="_blank">]
+2016-02-20 17:47:20 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="http://www.google.com/support/accounts?hl=en" target="_blank">]
+2016-02-20 17:47:20 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 17:47:20 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:21 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:30});" class="gbmt" id="gb_30" href="https://www.blogger.com/?tab=wj">]
+2016-02-20 17:47:21 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:31});" class="gbmt" id="gb_31" href="https://photos.google.com/?tab=wq">]
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:25});" class="gbmt" id="gb_25" href="https://docs.google.com/document/?usp=docs_alc">]
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a target="_top" href="https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.co.in/" onclick="gbar.logger.il(9,{l:&apos;i&apos;})" id="gb_70" class="gbgt">]
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a class="gbgt" id="gbg5" href="http://www.google.co.in/preferences?hl=en" title="Options" onclick="gbar.tg(event,this)" aria-haspopup="true" aria-owns="gbd5">]
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a class="gbmt" href="/preferences?hl=en">]
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a class="gbmt" href="http://www.google.co.in/history/optout?hl=en">]
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/chrome/browser/?hl=en&amp;brand=GNAM&amp;utm_source=en-hpp&amp;utm_medium=toast&amp;utm_campaign=msie-eol" onclick="google.promos&amp;&amp;google.promos.toast&amp;&amp; google.promos.toast.cl()">]
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/advanced_search?hl=en-IN&amp;authuser=0">]
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/language_tools?hl=en-IN&amp;authuser=0">]
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0__MbhRzbpxbPcpySm3r9yddsxn7E%3D&amp;hl=hi&amp;source=homepage" data-ved="0ahUKEwi0i_ihqYbLAhWNno4KHd8wAUUQ2ZgBCAU">]
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0__MbhRzbpxbPcpySm3r9yddsxn7E%3D&amp;hl=bn&amp;source=homepage" data-ved="0ahUKEwi0i_ihqYbLAhWNno4KHd8wAUUQ2ZgBCAY">]
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0__MbhRzbpxbPcpySm3r9yddsxn7E%3D&amp;hl=te&amp;source=homepage" data-ved="0ahUKEwi0i_ihqYbLAhWNno4KHd8wAUUQ2ZgBCAc">]
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0__MbhRzbpxbPcpySm3r9yddsxn7E%3D&amp;hl=mr&amp;source=homepage" data-ved="0ahUKEwi0i_ihqYbLAhWNno4KHd8wAUUQ2ZgBCAg">]
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0__MbhRzbpxbPcpySm3r9yddsxn7E%3D&amp;hl=ta&amp;source=homepage" data-ved="0ahUKEwi0i_ihqYbLAhWNno4KHd8wAUUQ2ZgBCAk">]
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0__MbhRzbpxbPcpySm3r9yddsxn7E%3D&amp;hl=gu&amp;source=homepage" data-ved="0ahUKEwi0i_ihqYbLAhWNno4KHd8wAUUQ2ZgBCAo">]
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0__MbhRzbpxbPcpySm3r9yddsxn7E%3D&amp;hl=kn&amp;source=homepage" data-ved="0ahUKEwi0i_ihqYbLAhWNno4KHd8wAUUQ2ZgBCAs">]
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0__MbhRzbpxbPcpySm3r9yddsxn7E%3D&amp;hl=ml&amp;source=homepage" data-ved="0ahUKEwi0i_ihqYbLAhWNno4KHd8wAUUQ2ZgBCAw">]
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0__MbhRzbpxbPcpySm3r9yddsxn7E%3D&amp;hl=pa&amp;source=homepage" data-ved="0ahUKEwi0i_ihqYbLAhWNno4KHd8wAUUQ2ZgBCA0">]
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/intl/en/ads/">]
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="http://www.google.co.in/services/">]
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://plus.google.com/104205742743787718296" rel="publisher">]
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/intl/en/about.html">]
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefdomain?prefdom=US&amp;sig=__ehA_iqkcPUdWPbLrtwWwdcXyxMI%3D" id="fehl">]
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/intl/en/policies/privacy/">]
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/intl/en/policies/terms/">]
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:22 INFO  ValidatorWorkerFactory:46 - URL list identified as not empty
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/webhp?tab=ww
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://play.google.com/?hl=en&tab=w8
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://maps.google.co.in/maps?hl=en&tab=wl
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/imghp?hl=en&tab=wi
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://news.google.co.in/nwshp?hl=en&tab=wn
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.youtube.com/?gl=IN&tab=w1
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://mail.google.com/mail/?tab=wm
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://drive.google.com/?tab=wo
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://support.google.com/accounts/?p=securesignin&hl=en
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/intl/en/options/
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://accounts.google.com/RecoverAccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ignoreShadow=0&hl=en
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://accounts.google.com/SignUp?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ltmpl=default
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.com/calendar?tab=wc
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://translate.google.co.in/?hl=en&tab=wT
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.com/intl/en/about
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://books.google.co.in/bkshp?hl=en&tab=wp
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://accounts.google.com/TOS?loc=IN&hl=en&privacy=true
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.google.com/support/accounts?hl=en
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://accounts.google.com/TOS?loc=IN&hl=en
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://photos.google.com/?tab=wq
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.blogger.com/?tab=wj
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.co.in/
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://docs.google.com/document/?usp=docs_alc
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.google.co.in/history/optout?hl=en
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/preferences?hl=en
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.google.co.in/preferences?hl=en
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/language_tools?hl=en-IN&authuser=0
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/advanced_search?hl=en-IN&authuser=0
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/chrome/browser/?hl=en&brand=GNAM&utm_source=en-hpp&utm_medium=toast&utm_campaign=msie-eol
+2016-02-20 17:47:23 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0__MbhRzbpxbPcpySm3r9yddsxn7E%3D&hl=te&source=homepage
+2016-02-20 17:47:23 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0__MbhRzbpxbPcpySm3r9yddsxn7E%3D&hl=bn&source=homepage
+2016-02-20 17:47:22 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0__MbhRzbpxbPcpySm3r9yddsxn7E%3D&hl=hi&source=homepage
+2016-02-20 17:47:23 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0__MbhRzbpxbPcpySm3r9yddsxn7E%3D&hl=gu&source=homepage
+2016-02-20 17:47:23 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0__MbhRzbpxbPcpySm3r9yddsxn7E%3D&hl=ta&source=homepage
+2016-02-20 17:47:23 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0__MbhRzbpxbPcpySm3r9yddsxn7E%3D&hl=mr&source=homepage
+2016-02-20 17:47:23 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0__MbhRzbpxbPcpySm3r9yddsxn7E%3D&hl=pa&source=homepage
+2016-02-20 17:47:23 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0__MbhRzbpxbPcpySm3r9yddsxn7E%3D&hl=ml&source=homepage
+2016-02-20 17:47:23 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0__MbhRzbpxbPcpySm3r9yddsxn7E%3D&hl=kn&source=homepage
+2016-02-20 17:47:23 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.google.co.in/services/
+2016-02-20 17:47:23 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/intl/en/ads/
+2016-02-20 17:47:28 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:28 INFO  ValidatorWorkerThread:94 - http://www.google.com/support/accounts?hl=en is an invalid url
+2016-02-20 17:47:28 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:28 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:28 INFO  ValidatorWorkerThread:94 - https://accounts.google.com/TOS?loc=IN&hl=en&privacy=true is an invalid url
+2016-02-20 17:47:28 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:28 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:28 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:28 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:28 INFO  ValidatorWorkerThread:94 - http://www.google.co.in/preferences?hl=en is an invalid url
+2016-02-20 17:47:28 INFO  ValidatorWorkerThread:94 - https://www.google.co.in/webhp?tab=ww is an invalid url
+2016-02-20 17:47:28 INFO  ValidatorWorkerThread:94 - http://www.google.co.in/history/optout?hl=en is an invalid url
+2016-02-20 17:47:28 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:28 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:28 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:29 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:29 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:29 INFO  ValidatorWorkerThread:94 - https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.co.in/ is an invalid url
+2016-02-20 17:47:29 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:29 INFO  ValidatorWorkerThread:94 - https://www.google.co.in/intl/en/options/ is an invalid url
+2016-02-20 17:47:29 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:29 INFO  ValidatorWorkerThread:94 - http://www.google.co.in/services/ is an invalid url
+2016-02-20 17:47:29 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:29 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:30 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:30 INFO  ValidatorWorkerThread:94 - https://mail.google.com/mail/?tab=wm is an invalid url
+2016-02-20 17:47:30 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:30 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:30 INFO  ValidatorWorkerThread:94 - https://www.google.co.in/preferences?hl=en is an invalid url
+2016-02-20 17:47:30 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:30 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:30 INFO  ValidatorWorkerThread:94 - https://www.google.co.in/advanced_search?hl=en-IN&authuser=0 is an invalid url
+2016-02-20 17:47:30 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:30 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:30 INFO  ValidatorWorkerThread:94 - https://www.google.co.in/language_tools?hl=en-IN&authuser=0 is an invalid url
+2016-02-20 17:47:30 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:31 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:31 INFO  ValidatorWorkerThread:94 - https://www.google.co.in/chrome/browser/?hl=en&brand=GNAM&utm_source=en-hpp&utm_medium=toast&utm_campaign=msie-eol is an invalid url
+2016-02-20 17:47:31 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:31 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:31 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:31 INFO  ValidatorWorkerThread:94 - https://www.google.co.in/setprefs?sig=0__MbhRzbpxbPcpySm3r9yddsxn7E%3D&hl=bn&source=homepage is an invalid url
+2016-02-20 17:47:31 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:31 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:31 INFO  ValidatorWorkerThread:94 - https://www.google.co.in/setprefs?sig=0__MbhRzbpxbPcpySm3r9yddsxn7E%3D&hl=te&source=homepage is an invalid url
+2016-02-20 17:47:31 INFO  ValidatorWorkerThread:94 - https://www.google.co.in/setprefs?sig=0__MbhRzbpxbPcpySm3r9yddsxn7E%3D&hl=hi&source=homepage is an invalid url
+2016-02-20 17:47:31 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:31 INFO  ValidatorWorkerThread:94 - https://www.google.co.in/setprefs?sig=0__MbhRzbpxbPcpySm3r9yddsxn7E%3D&hl=gu&source=homepage is an invalid url
+2016-02-20 17:47:31 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:31 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:31 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:31 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:31 INFO  ValidatorWorkerThread:94 - https://www.google.co.in/setprefs?sig=0__MbhRzbpxbPcpySm3r9yddsxn7E%3D&hl=pa&source=homepage is an invalid url
+2016-02-20 17:47:31 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:31 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:31 INFO  ValidatorWorkerThread:94 - https://www.google.co.in/setprefs?sig=0__MbhRzbpxbPcpySm3r9yddsxn7E%3D&hl=kn&source=homepage is an invalid url
+2016-02-20 17:47:31 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:31 INFO  ValidatorWorkerThread:94 - https://www.google.co.in/setprefs?sig=0__MbhRzbpxbPcpySm3r9yddsxn7E%3D&hl=ta&source=homepage is an invalid url
+2016-02-20 17:47:31 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:31 INFO  ValidatorWorkerThread:94 - https://www.google.co.in/setprefs?sig=0__MbhRzbpxbPcpySm3r9yddsxn7E%3D&hl=ml&source=homepage is an invalid url
+2016-02-20 17:47:31 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:31 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:31 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:31 INFO  ValidatorWorkerThread:94 - https://www.google.co.in/setprefs?sig=0__MbhRzbpxbPcpySm3r9yddsxn7E%3D&hl=mr&source=homepage is an invalid url
+2016-02-20 17:47:31 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:31 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:31 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:31 INFO  ValidatorWorkerThread:94 - https://www.google.co.in/imghp?hl=en&tab=wi is an invalid url
+2016-02-20 17:47:31 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:31 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:31 INFO  ValidatorWorkerThread:94 - https://accounts.google.com/RecoverAccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ignoreShadow=0&hl=en is an invalid url
+2016-02-20 17:47:31 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:31 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:31 INFO  ValidatorWorkerThread:94 - https://accounts.google.com/SignUp?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ltmpl=default is an invalid url
+2016-02-20 17:47:31 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:32 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:32 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:32 INFO  ValidatorWorkerThread:94 - https://www.google.co.in/intl/en/ads/ is an invalid url
+2016-02-20 17:47:32 INFO  ValidatorWorkerThread:94 - https://play.google.com/?hl=en&tab=w8 is an invalid url
+2016-02-20 17:47:32 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:32 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:32 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:32 INFO  ValidatorWorkerThread:94 - https://accounts.google.com/TOS?loc=IN&hl=en is an invalid url
+2016-02-20 17:47:32 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:33 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:33 INFO  ValidatorWorkerThread:94 - https://drive.google.com/?tab=wo is an invalid url
+2016-02-20 17:47:33 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:33 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:33 INFO  ValidatorWorkerThread:94 - https://news.google.co.in/nwshp?hl=en&tab=wn is an invalid url
+2016-02-20 17:47:33 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:34 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:34 INFO  ValidatorWorkerThread:94 - https://www.youtube.com/?gl=IN&tab=w1 is an invalid url
+2016-02-20 17:47:34 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:34 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:34 INFO  ValidatorWorkerThread:94 - https://www.google.com/intl/en/about is an invalid url
+2016-02-20 17:47:34 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:34 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:34 INFO  ValidatorWorkerThread:94 - https://photos.google.com/?tab=wq is an invalid url
+2016-02-20 17:47:34 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:34 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:34 INFO  ValidatorWorkerThread:94 - https://www.blogger.com/?tab=wj is an invalid url
+2016-02-20 17:47:34 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:35 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:35 INFO  ValidatorWorkerThread:94 - https://support.google.com/accounts/?p=securesignin&hl=en is an invalid url
+2016-02-20 17:47:35 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:35 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:35 INFO  ValidatorWorkerThread:94 - https://translate.google.co.in/?hl=en&tab=wT is an invalid url
+2016-02-20 17:47:35 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:35 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:35 INFO  ValidatorWorkerThread:94 - https://docs.google.com/document/?usp=docs_alc is an invalid url
+2016-02-20 17:47:35 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:35 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:35 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:35 INFO  ValidatorWorkerThread:94 - https://maps.google.co.in/maps?hl=en&tab=wl is an invalid url
+2016-02-20 17:47:35 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:35 INFO  ValidatorWorkerThread:94 - https://books.google.co.in/bkshp?hl=en&tab=wp is an invalid url
+2016-02-20 17:47:35 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:36 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 17:47:36 INFO  ValidatorWorkerThread:94 - https://www.google.com/calendar?tab=wc is an invalid url
+2016-02-20 17:47:36 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:36 INFO  ValidatorWorkerFactory:46 - URL list identified as not empty
+2016-02-20 17:47:36 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://plus.google.com/104205742743787718296
+2016-02-20 17:47:36 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/intl/en/about.html
+2016-02-20 17:47:36 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefdomain?prefdom=US&sig=__ehA_iqkcPUdWPbLrtwWwdcXyxMI%3D
+2016-02-20 17:47:41 ERROR ValidatorWorkerThread:93 - The host did not accept the connection within timeout of 5000 ms
+2016-02-20 17:47:41 ERROR ValidatorWorkerThread:93 - The host did not accept the connection within timeout of 5000 ms
+2016-02-20 17:47:41 INFO  ValidatorWorkerThread:94 - https://plus.google.com/104205742743787718296 is an invalid url
+2016-02-20 17:47:41 INFO  ValidatorWorkerThread:94 - https://www.google.co.in/intl/en/about.html is an invalid url
+2016-02-20 17:47:41 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:41 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:41 ERROR ValidatorWorkerThread:93 - The host did not accept the connection within timeout of 5000 ms
+2016-02-20 17:47:41 INFO  ValidatorWorkerThread:94 - https://www.google.co.in/setprefdomain?prefdom=US&sig=__ehA_iqkcPUdWPbLrtwWwdcXyxMI%3D is an invalid url
+2016-02-20 17:47:41 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:41 INFO  ValidatorWorkerFactory:46 - URL list identified as not empty
+2016-02-20 17:47:41 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/intl/en/policies/privacy/
+2016-02-20 17:47:41 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/intl/en/policies/terms/
+2016-02-20 17:47:49 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/intl/en/policies/terms/ is a valid url
+2016-02-20 17:47:49 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 17:47:49 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:51 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/intl/en/policies/privacy/ is a valid url
+2016-02-20 17:47:51 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 17:47:51 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:47:51 INFO  ValidatorWorkerFactory:59 - Finished all validation threads
+2016-02-20 17:47:51 INFO  ValidatorWorkerFactory:79 - Finished appending to the HTML Report
+2016-02-20 17:59:01 INFO  PropertyReaderUtil:62 - Reading properties from file : LinkValidatorProperties.yaml
+2016-02-20 17:59:02 INFO  PropertyReaderUtil:29 - Loading base urls from file : BaseURLs.txt
+2016-02-20 17:59:02 INFO  PropertyReaderUtil:35 - BaseURL identified : https://www.google.co.in
+2016-02-20 17:59:02 INFO  PropertyReaderUtil:35 - BaseURL identified : http://www.gmail.com/
+2016-02-20 17:59:02 INFO  PropertyReaderUtil:52 - Validation Depth identified : ONE
+2016-02-20 17:59:02 INFO  PropertyReaderUtil:57 - Error Strings identified : [Viewed, xyz]
+2016-02-20 17:59:02 INFO  ValidatorWorkerFactory:63 - Adding Table Headers to HTML Report
+2016-02-20 17:59:02 INFO  ValidatorWorkerFactory:65 - Initializing the url list with the base urls
+2016-02-20 17:59:02 INFO  ValidatorWorkerFactory:42 - ========== Link Validation begins ===============
+2016-02-20 17:59:02 INFO  ValidatorWorkerFactory:46 - URL list identified as not empty
+2016-02-20 17:59:02 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in
+2016-02-20 17:59:02 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.gmail.com/
+2016-02-20 17:59:04 WARN  HTMLDivElement:996 - Unimplemented behavior: #default#userdata
+2016-02-20 17:59:04 INFO  ValidatorWorkerThread:85 - https://www.google.co.in is a valid url
+2016-02-20 17:59:04 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 17:59:04 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:59:05 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 17:59:05 INFO  ValidatorWorkerThread:85 - http://www.gmail.com/ is a valid url
+2016-02-20 17:59:05 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 17:59:05 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 17:59:05 INFO  ValidatorWorkerFactory:59 - Finished all validation threads
+2016-02-20 17:59:05 INFO  ValidatorWorkerFactory:79 - Finished appending to the HTML Report
+2016-02-20 18:00:06 INFO  PropertyReaderUtil:62 - Reading properties from file : LinkValidatorProperties.yaml
+2016-02-20 18:00:06 INFO  PropertyReaderUtil:29 - Loading base urls from file : BaseURLs.txt
+2016-02-20 18:00:06 INFO  PropertyReaderUtil:35 - BaseURL identified : https://www.google.co.in
+2016-02-20 18:00:06 INFO  PropertyReaderUtil:35 - BaseURL identified : http://www.gmail.com/
+2016-02-20 18:00:06 INFO  PropertyReaderUtil:52 - Validation Depth identified : ONE
+2016-02-20 18:00:06 INFO  PropertyReaderUtil:57 - Error Strings identified : [Viewed, xyz]
+2016-02-20 18:00:06 INFO  ValidatorWorkerFactory:63 - Adding Table Headers to HTML Report
+2016-02-20 18:00:06 INFO  ValidatorWorkerFactory:65 - Initializing the url list with the base urls
+2016-02-20 18:00:06 INFO  ValidatorWorkerFactory:42 - ========== Link Validation begins ===============
+2016-02-20 18:00:06 INFO  ValidatorWorkerFactory:46 - URL list identified as not empty
+2016-02-20 18:00:06 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.gmail.com/
+2016-02-20 18:00:06 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in
+2016-02-20 18:00:10 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 18:00:10 WARN  HTMLDivElement:996 - Unimplemented behavior: #default#userdata
+2016-02-20 18:00:10 INFO  ValidatorWorkerThread:85 - http://www.gmail.com/ is a valid url
+2016-02-20 18:00:10 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 18:00:10 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 18:00:10 INFO  ValidatorWorkerThread:85 - https://www.google.co.in is a valid url
+2016-02-20 18:00:10 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 18:00:10 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 18:00:10 INFO  ValidatorWorkerFactory:59 - Finished all validation threads
+2016-02-20 18:00:10 INFO  ValidatorWorkerFactory:79 - Finished appending to the HTML Report
+2016-02-20 18:03:29 INFO  PropertyReaderUtil:62 - Reading properties from file : LinkValidatorProperties.yaml
+2016-02-20 18:03:29 INFO  PropertyReaderUtil:29 - Loading base urls from file : BaseURLs.txt
+2016-02-20 18:03:29 INFO  PropertyReaderUtil:35 - BaseURL identified : https://www.google.co.in
+2016-02-20 18:03:30 INFO  PropertyReaderUtil:35 - BaseURL identified : http://www.gmail.com/
+2016-02-20 18:03:30 INFO  PropertyReaderUtil:52 - Validation Depth identified : ONE
+2016-02-20 18:03:30 INFO  PropertyReaderUtil:57 - Error Strings identified : [Viewed, xyz]
+2016-02-20 18:03:30 INFO  ValidatorWorkerFactory:63 - Adding Table Headers to HTML Report
+2016-02-20 18:03:30 INFO  ValidatorWorkerFactory:65 - Initializing the url list with the base urls
+2016-02-20 18:03:30 INFO  ValidatorWorkerFactory:42 - ========== Link Validation begins ===============
+2016-02-20 18:03:30 INFO  ValidatorWorkerFactory:46 - URL list identified as not empty
+2016-02-20 18:03:30 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in
+2016-02-20 18:03:30 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.gmail.com/
+2016-02-20 18:03:33 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 18:03:33 WARN  HTMLDivElement:996 - Unimplemented behavior: #default#userdata
+2016-02-20 18:03:33 INFO  ValidatorWorkerThread:85 - https://www.google.co.in is a valid url
+2016-02-20 18:03:33 INFO  ValidatorWorkerThread:85 - http://www.gmail.com/ is a valid url
+2016-02-20 18:03:34 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 18:03:34 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 18:03:33 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 18:03:34 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 18:03:34 INFO  ValidatorWorkerFactory:59 - Finished all validation threads
+2016-02-20 18:03:34 INFO  ValidatorWorkerFactory:79 - Finished appending to the HTML Report
+2016-02-20 18:11:08 INFO  PropertyReaderUtil:62 - Reading properties from file : LinkValidatorProperties.yaml
+2016-02-20 18:11:08 INFO  PropertyReaderUtil:29 - Loading base urls from file : BaseURLs.txt
+2016-02-20 18:11:08 INFO  PropertyReaderUtil:35 - BaseURL identified : https://www.google.co.in
+2016-02-20 18:11:08 INFO  PropertyReaderUtil:35 - BaseURL identified : http://www.gmail.com/
+2016-02-20 18:11:15 INFO  PropertyReaderUtil:52 - Validation Depth identified : ONE
+2016-02-20 18:11:15 INFO  PropertyReaderUtil:57 - Error Strings identified : [Viewed, xyz]
+2016-02-20 18:11:15 INFO  ValidatorWorkerFactory:63 - Adding Table Headers to HTML Report
+2016-02-20 18:11:15 INFO  ValidatorWorkerFactory:65 - Initializing the url list with the base urls
+2016-02-20 18:11:15 INFO  ValidatorWorkerFactory:42 - ========== Link Validation begins ===============
+2016-02-20 18:11:15 INFO  ValidatorWorkerFactory:46 - URL list identified as not empty
+2016-02-20 18:11:15 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in
+2016-02-20 18:11:15 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.gmail.com/
+2016-02-20 18:11:29 WARN  HTMLDivElement:996 - Unimplemented behavior: #default#userdata
+2016-02-20 18:11:29 INFO  ValidatorWorkerThread:85 - https://www.google.co.in is a valid url
+2016-02-20 18:11:29 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 18:11:29 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 18:11:40 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 18:11:40 INFO  ValidatorWorkerThread:85 - http://www.gmail.com/ is a valid url
+2016-02-20 18:11:40 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 18:11:40 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 18:11:40 INFO  ValidatorWorkerFactory:59 - Finished all validation threads
+2016-02-20 18:11:40 INFO  ValidatorWorkerFactory:79 - Finished appending to the HTML Report
+2016-02-20 22:12:43 INFO  PropertyReaderUtil:62 - Reading properties from file : LinkValidatorProperties.yaml
+2016-02-20 22:12:43 INFO  PropertyReaderUtil:29 - Loading base urls from file : BaseURLs.txt
+2016-02-20 22:12:43 INFO  PropertyReaderUtil:35 - BaseURL identified : https://www.google.co.in
+2016-02-20 22:12:44 INFO  PropertyReaderUtil:35 - BaseURL identified : http://www.gmail.com/
+2016-02-20 22:12:47 INFO  PropertyReaderUtil:52 - Validation Depth identified : ONE
+2016-02-20 22:12:47 INFO  PropertyReaderUtil:57 - Error Strings identified : [Viewed, xyz]
+2016-02-20 22:12:47 INFO  ValidatorWorkerFactory:63 - Adding Table Headers to HTML Report
+2016-02-20 22:12:47 INFO  ValidatorWorkerFactory:65 - Initializing the url list with the base urls
+2016-02-20 22:12:47 INFO  ValidatorWorkerFactory:42 - ========== Link Validation begins ===============
+2016-02-20 22:12:47 INFO  ValidatorWorkerFactory:46 - URL list identified as not empty
+2016-02-20 22:12:47 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.gmail.com/
+2016-02-20 22:12:47 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in
+2016-02-20 22:13:05 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 22:13:05 INFO  ValidatorWorkerThread:94 - https://www.google.co.in is an invalid url
+2016-02-20 22:13:05 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:13:06 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 22:13:06 INFO  ValidatorWorkerThread:94 - http://www.gmail.com/ is an invalid url
+2016-02-20 22:13:06 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:13:06 INFO  ValidatorWorkerFactory:59 - Finished all validation threads
+2016-02-20 22:13:06 INFO  ValidatorWorkerFactory:79 - Finished appending to the HTML Report
+2016-02-20 22:13:35 INFO  PropertyReaderUtil:62 - Reading properties from file : LinkValidatorProperties.yaml
+2016-02-20 22:13:35 INFO  PropertyReaderUtil:29 - Loading base urls from file : BaseURLs.txt
+2016-02-20 22:13:35 INFO  PropertyReaderUtil:35 - BaseURL identified : https://www.google.co.in
+2016-02-20 22:13:39 INFO  PropertyReaderUtil:35 - BaseURL identified : http://www.gmail.com/
+2016-02-20 22:13:39 INFO  PropertyReaderUtil:52 - Validation Depth identified : ONE
+2016-02-20 22:13:39 INFO  PropertyReaderUtil:57 - Error Strings identified : [Viewed, xyz]
+2016-02-20 22:13:39 INFO  ValidatorWorkerFactory:63 - Adding Table Headers to HTML Report
+2016-02-20 22:13:39 INFO  ValidatorWorkerFactory:65 - Initializing the url list with the base urls
+2016-02-20 22:13:39 INFO  ValidatorWorkerFactory:42 - ========== Link Validation begins ===============
+2016-02-20 22:13:39 INFO  ValidatorWorkerFactory:46 - URL list identified as not empty
+2016-02-20 22:13:39 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in
+2016-02-20 22:13:39 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.gmail.com/
+2016-02-20 22:13:45 ERROR ValidatorWorkerThread:93 - The host did not accept the connection within timeout of 5000 ms
+2016-02-20 22:13:45 INFO  ValidatorWorkerThread:94 - https://www.google.co.in is an invalid url
+2016-02-20 22:13:45 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:14:13 ERROR ValidatorWorkerThread:93 - The host did not accept the connection within timeout of 5000 ms
+2016-02-20 22:14:13 INFO  ValidatorWorkerThread:94 - http://www.gmail.com/ is an invalid url
+2016-02-20 22:14:13 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:14:13 INFO  ValidatorWorkerFactory:59 - Finished all validation threads
+2016-02-20 22:14:13 INFO  ValidatorWorkerFactory:79 - Finished appending to the HTML Report
+2016-02-20 22:26:05 INFO  PropertyReaderUtil:62 - Reading properties from file : LinkValidatorProperties.yaml
+2016-02-20 22:26:05 INFO  PropertyReaderUtil:29 - Loading base urls from file : BaseURLs.txt
+2016-02-20 22:26:05 INFO  PropertyReaderUtil:35 - BaseURL identified : https://www.google.co.in
+2016-02-20 22:26:05 INFO  PropertyReaderUtil:35 - BaseURL identified : http://www.gmail.com/
+2016-02-20 22:26:05 INFO  PropertyReaderUtil:52 - Validation Depth identified : ONE
+2016-02-20 22:26:05 INFO  PropertyReaderUtil:57 - Error Strings identified : [Viewed, xyz]
+2016-02-20 22:26:05 INFO  ValidatorWorkerFactory:64 - Adding Table Headers to HTML Report
+2016-02-20 22:26:05 INFO  ValidatorWorkerFactory:66 - Initializing the url list with the base urls
+2016-02-20 22:26:05 INFO  ValidatorWorkerFactory:43 - ========== Link Validation begins ===============
+2016-02-20 22:26:05 INFO  ValidatorWorkerFactory:47 - URL list identified as not empty
+2016-02-20 22:26:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in
+2016-02-20 22:26:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.gmail.com/
+2016-02-20 22:26:09 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 22:26:09 INFO  ValidatorWorkerThread:85 - http://www.gmail.com/ is a valid url
+2016-02-20 22:26:09 WARN  HTMLDivElement:996 - Unimplemented behavior: #default#userdata
+2016-02-20 22:26:09 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:26:09 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:26:09 INFO  ValidatorWorkerThread:85 - https://www.google.co.in is a valid url
+2016-02-20 22:26:09 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:26:09 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:26:09 INFO  ValidatorWorkerFactory:60 - Finished all validation threads
+2016-02-20 22:26:09 INFO  ValidatorWorkerFactory:80 - Finished appending to the HTML Report
+2016-02-20 22:27:21 INFO  PropertyReaderUtil:62 - Reading properties from file : LinkValidatorProperties.yaml
+2016-02-20 22:27:21 INFO  PropertyReaderUtil:29 - Loading base urls from file : BaseURLs.txt
+2016-02-20 22:27:21 INFO  PropertyReaderUtil:35 - BaseURL identified : https://www.google.co.in
+2016-02-20 22:27:21 INFO  PropertyReaderUtil:35 - BaseURL identified : http://www.gmail.com/
+2016-02-20 22:27:21 INFO  PropertyReaderUtil:52 - Validation Depth identified : TWO
+2016-02-20 22:27:21 INFO  PropertyReaderUtil:57 - Error Strings identified : [Viewed, xyz]
+2016-02-20 22:27:21 INFO  ValidatorWorkerFactory:64 - Adding Table Headers to HTML Report
+2016-02-20 22:27:21 INFO  ValidatorWorkerFactory:66 - Initializing the url list with the base urls
+2016-02-20 22:27:21 INFO  ValidatorWorkerFactory:43 - ========== Link Validation begins ===============
+2016-02-20 22:27:21 INFO  ValidatorWorkerFactory:47 - URL list identified as not empty
+2016-02-20 22:27:21 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in
+2016-02-20 22:27:21 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.gmail.com/
+2016-02-20 22:27:24 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 22:27:24 INFO  ValidatorWorkerThread:85 - http://www.gmail.com/ is a valid url
+2016-02-20 22:27:24 INFO  ValidatorWorkerThread:53 - Number of child urls identified : 7
+2016-02-20 22:27:24 WARN  HTMLDivElement:996 - Unimplemented behavior: #default#userdata
+2016-02-20 22:27:24 INFO  ValidatorWorkerThread:85 - https://www.google.co.in is a valid url
+2016-02-20 22:27:24 INFO  ValidatorWorkerThread:53 - Number of child urls identified : 39
+2016-02-20 22:27:24 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a class="need-help" href="https://accounts.google.com/RecoverAccount?service=mail&amp;continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;ignoreShadow=0&amp;hl=en">]
+2016-02-20 22:27:24 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:1});" class="gbzt gbz0l gbp1" id="gb_1" href="https://www.google.co.in/webhp?tab=ww">]
+2016-02-20 22:27:24 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://accounts.google.com/AccountChooser?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;hl=en&amp;service=mail&amp;scc=1">]
+2016-02-20 22:27:24 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:2});" class="gbzt" id="gb_2" href="https://www.google.co.in/imghp?hl=en&amp;tab=wi">]
+2016-02-20 22:27:24 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://accounts.google.com/SignUp?service=mail&amp;continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;ltmpl=default">]
+2016-02-20 22:27:24 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:8});" class="gbzt" id="gb_8" href="https://maps.google.co.in/maps?hl=en&amp;tab=wl">]
+2016-02-20 22:27:24 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.com/intl/en/about" target="_blank">]
+2016-02-20 22:27:24 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://accounts.google.com/TOS?loc=IN&amp;hl=en&amp;privacy=true" target="_blank">]
+2016-02-20 22:27:24 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:78});" class="gbzt" id="gb_78" href="https://play.google.com/?hl=en&amp;tab=w8">]
+2016-02-20 22:27:24 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://accounts.google.com/TOS?loc=IN&amp;hl=en" target="_blank">]
+2016-02-20 22:27:24 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="http://www.google.com/support/accounts?hl=en" target="_blank">]
+2016-02-20 22:27:24 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:24 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:24 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:36});" class="gbzt" id="gb_36" href="https://www.youtube.com/?gl=IN&amp;tab=w1">]
+2016-02-20 22:27:24 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:5});" class="gbzt" id="gb_5" href="https://news.google.co.in/nwshp?hl=en&amp;tab=wn">]
+2016-02-20 22:27:24 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:23});" class="gbzt" id="gb_23" href="https://mail.google.com/mail/?tab=wm">]
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:49});" class="gbzt" id="gb_49" href="https://drive.google.com/?tab=wo">]
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a class="gbgt" id="gbztm" href="https://www.google.co.in/intl/en/options/" onclick="gbar.tg(event,this)" aria-haspopup="true" aria-owns="gbd">]
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:24});" class="gbmt" id="gb_24" href="https://www.google.com/calendar?tab=wc">]
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:51});" class="gbmt" id="gb_51" href="https://translate.google.co.in/?hl=en&amp;tab=wT">]
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:10});" class="gbmt" id="gb_10" href="https://books.google.co.in/bkshp?hl=en&amp;tab=wp">]
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:30});" class="gbmt" id="gb_30" href="https://www.blogger.com/?tab=wj">]
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:31});" class="gbmt" id="gb_31" href="https://photos.google.com/?tab=wq">]
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:25});" class="gbmt" id="gb_25" href="https://docs.google.com/document/?usp=docs_alc">]
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a target="_top" href="https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.co.in/" onclick="gbar.logger.il(9,{l:&apos;i&apos;})" id="gb_70" class="gbgt">]
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a class="gbgt" id="gbg5" href="http://www.google.co.in/preferences?hl=en" title="Options" onclick="gbar.tg(event,this)" aria-haspopup="true" aria-owns="gbd5">]
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a class="gbmt" href="/preferences?hl=en">]
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a class="gbmt" href="http://www.google.co.in/history/optout?hl=en">]
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/chrome/browser/?hl=en&amp;brand=GNAM&amp;utm_source=en-hpp&amp;utm_medium=toast&amp;utm_campaign=msie-eol" onclick="google.promos&amp;&amp;google.promos.toast&amp;&amp; google.promos.toast.cl()">]
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/advanced_search?hl=en-IN&amp;authuser=0">]
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/language_tools?hl=en-IN&amp;authuser=0">]
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_VNP3o6mq0nZCNHV2n14HlE108hs%3D&amp;hl=hi&amp;source=homepage" data-ved="0ahUKEwiUiZ7y54bLAhWB5KYKHcPiAwAQ2ZgBCAU">]
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_VNP3o6mq0nZCNHV2n14HlE108hs%3D&amp;hl=bn&amp;source=homepage" data-ved="0ahUKEwiUiZ7y54bLAhWB5KYKHcPiAwAQ2ZgBCAY">]
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_VNP3o6mq0nZCNHV2n14HlE108hs%3D&amp;hl=te&amp;source=homepage" data-ved="0ahUKEwiUiZ7y54bLAhWB5KYKHcPiAwAQ2ZgBCAc">]
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_VNP3o6mq0nZCNHV2n14HlE108hs%3D&amp;hl=mr&amp;source=homepage" data-ved="0ahUKEwiUiZ7y54bLAhWB5KYKHcPiAwAQ2ZgBCAg">]
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_VNP3o6mq0nZCNHV2n14HlE108hs%3D&amp;hl=ta&amp;source=homepage" data-ved="0ahUKEwiUiZ7y54bLAhWB5KYKHcPiAwAQ2ZgBCAk">]
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_VNP3o6mq0nZCNHV2n14HlE108hs%3D&amp;hl=gu&amp;source=homepage" data-ved="0ahUKEwiUiZ7y54bLAhWB5KYKHcPiAwAQ2ZgBCAo">]
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_VNP3o6mq0nZCNHV2n14HlE108hs%3D&amp;hl=kn&amp;source=homepage" data-ved="0ahUKEwiUiZ7y54bLAhWB5KYKHcPiAwAQ2ZgBCAs">]
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_VNP3o6mq0nZCNHV2n14HlE108hs%3D&amp;hl=ml&amp;source=homepage" data-ved="0ahUKEwiUiZ7y54bLAhWB5KYKHcPiAwAQ2ZgBCAw">]
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_VNP3o6mq0nZCNHV2n14HlE108hs%3D&amp;hl=pa&amp;source=homepage" data-ved="0ahUKEwiUiZ7y54bLAhWB5KYKHcPiAwAQ2ZgBCA0">]
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/intl/en/ads/">]
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="http://www.google.co.in/services/">]
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://plus.google.com/104205742743787718296" rel="publisher">]
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/intl/en/about.html">]
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefdomain?prefdom=US&amp;sig=__nbwUy4-C0HRxs93JTDOVEd75jcQ%3D" id="fehl">]
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/intl/en/policies/privacy/">]
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/intl/en/policies/terms/">]
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:25 INFO  ValidatorWorkerFactory:47 - URL list identified as not empty
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://accounts.google.com/RecoverAccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ignoreShadow=0&hl=en
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://maps.google.co.in/maps?hl=en&tab=wl
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://accounts.google.com/TOS?loc=IN&hl=en&privacy=true
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://accounts.google.com/SignUp?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ltmpl=default
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/imghp?hl=en&tab=wi
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://accounts.google.com/AccountChooser?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&hl=en&service=mail&scc=1
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/webhp?tab=ww
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.youtube.com/?gl=IN&tab=w1
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.google.com/support/accounts?hl=en
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://accounts.google.com/TOS?loc=IN&hl=en
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://play.google.com/?hl=en&tab=w8
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.com/intl/en/about
+2016-02-20 22:27:26 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/intl/en/ads/
+2016-02-20 22:27:26 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_VNP3o6mq0nZCNHV2n14HlE108hs%3D&hl=pa&source=homepage
+2016-02-20 22:27:26 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_VNP3o6mq0nZCNHV2n14HlE108hs%3D&hl=ml&source=homepage
+2016-02-20 22:27:26 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_VNP3o6mq0nZCNHV2n14HlE108hs%3D&hl=kn&source=homepage
+2016-02-20 22:27:26 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_VNP3o6mq0nZCNHV2n14HlE108hs%3D&hl=gu&source=homepage
+2016-02-20 22:27:26 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_VNP3o6mq0nZCNHV2n14HlE108hs%3D&hl=ta&source=homepage
+2016-02-20 22:27:26 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_VNP3o6mq0nZCNHV2n14HlE108hs%3D&hl=mr&source=homepage
+2016-02-20 22:27:26 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_VNP3o6mq0nZCNHV2n14HlE108hs%3D&hl=te&source=homepage
+2016-02-20 22:27:26 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_VNP3o6mq0nZCNHV2n14HlE108hs%3D&hl=bn&source=homepage
+2016-02-20 22:27:26 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_VNP3o6mq0nZCNHV2n14HlE108hs%3D&hl=hi&source=homepage
+2016-02-20 22:27:26 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/language_tools?hl=en-IN&authuser=0
+2016-02-20 22:27:26 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/advanced_search?hl=en-IN&authuser=0
+2016-02-20 22:27:26 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/chrome/browser/?hl=en&brand=GNAM&utm_source=en-hpp&utm_medium=toast&utm_campaign=msie-eol
+2016-02-20 22:27:26 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.google.co.in/history/optout?hl=en
+2016-02-20 22:27:26 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/preferences?hl=en
+2016-02-20 22:27:26 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.google.co.in/preferences?hl=en
+2016-02-20 22:27:26 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.co.in/
+2016-02-20 22:27:26 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://docs.google.com/document/?usp=docs_alc
+2016-02-20 22:27:26 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://photos.google.com/?tab=wq
+2016-02-20 22:27:26 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.blogger.com/?tab=wj
+2016-02-20 22:27:26 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://books.google.co.in/bkshp?hl=en&tab=wp
+2016-02-20 22:27:26 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://translate.google.co.in/?hl=en&tab=wT
+2016-02-20 22:27:26 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.com/calendar?tab=wc
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/intl/en/options/
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://drive.google.com/?tab=wo
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://mail.google.com/mail/?tab=wm
+2016-02-20 22:27:25 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://news.google.co.in/nwshp?hl=en&tab=wn
+2016-02-20 22:27:26 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/intl/en/ads/ is a valid url
+2016-02-20 22:27:26 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:26 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:26 WARN  HTMLDivElement:996 - Unimplemented behavior: #default#userdata
+2016-02-20 22:27:26 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/imghp?hl=en&tab=wi is a valid url
+2016-02-20 22:27:26 WARN  HTMLDivElement:996 - Unimplemented behavior: #default#userdata
+2016-02-20 22:27:26 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:26 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/webhp?tab=ww is a valid url
+2016-02-20 22:27:26 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:26 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:27 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:27 INFO  ValidatorWorkerThread:85 - https://accounts.google.com/TOS?loc=IN&hl=en&privacy=true is a valid url
+2016-02-20 22:27:27 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:27 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:27 INFO  ValidatorWorkerThread:85 - https://www.google.com/intl/en/about is a valid url
+2016-02-20 22:27:27 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:27 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:27 INFO  ValidatorWorkerThread:85 - http://www.google.co.in/history/optout?hl=en is a valid url
+2016-02-20 22:27:27 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:27 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:28 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 22:27:28 INFO  ValidatorWorkerThread:85 - https://accounts.google.com/AccountChooser?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&hl=en&service=mail&scc=1 is a valid url
+2016-02-20 22:27:28 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:28 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:28 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_VNP3o6mq0nZCNHV2n14HlE108hs%3D&hl=pa&source=homepage is a valid url
+2016-02-20 22:27:28 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:28 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:28 INFO  ValidatorWorkerThread:85 - https://accounts.google.com/TOS?loc=IN&hl=en is a valid url
+2016-02-20 22:27:28 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:28 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:28 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_VNP3o6mq0nZCNHV2n14HlE108hs%3D&hl=ml&source=homepage is a valid url
+2016-02-20 22:27:28 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:28 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:28 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_VNP3o6mq0nZCNHV2n14HlE108hs%3D&hl=kn&source=homepage is a valid url
+2016-02-20 22:27:28 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:28 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:28 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_VNP3o6mq0nZCNHV2n14HlE108hs%3D&hl=gu&source=homepage is a valid url
+2016-02-20 22:27:28 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:28 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:28 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_VNP3o6mq0nZCNHV2n14HlE108hs%3D&hl=ta&source=homepage is a valid url
+2016-02-20 22:27:28 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:28 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:29 INFO  ValidatorWorkerThread:85 - https://maps.google.co.in/maps?hl=en&tab=wl is a valid url
+2016-02-20 22:27:29 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:29 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:29 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_VNP3o6mq0nZCNHV2n14HlE108hs%3D&hl=mr&source=homepage is a valid url
+2016-02-20 22:27:29 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:29 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:29 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_VNP3o6mq0nZCNHV2n14HlE108hs%3D&hl=te&source=homepage is a valid url
+2016-02-20 22:27:29 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:29 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:29 INFO  ValidatorWorkerThread:85 - https://accounts.google.com/RecoverAccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ignoreShadow=0&hl=en is a valid url
+2016-02-20 22:27:29 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/preferences?hl=en is a valid url
+2016-02-20 22:27:29 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:29 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:29 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:29 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:29 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_VNP3o6mq0nZCNHV2n14HlE108hs%3D&hl=bn&source=homepage is a valid url
+2016-02-20 22:27:29 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:29 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:29 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/intl/en/options/ is a valid url
+2016-02-20 22:27:29 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:29 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:29 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_VNP3o6mq0nZCNHV2n14HlE108hs%3D&hl=hi&source=homepage is a valid url
+2016-02-20 22:27:29 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:29 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:30 INFO  ValidatorWorkerThread:85 - https://translate.google.co.in/?hl=en&tab=wT is a valid url
+2016-02-20 22:27:30 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:30 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:30 INFO  InputElementFactory:125 - Bad input type: "tel", creating a text input
+2016-02-20 22:27:30 WARN  HTMLDivElement:996 - Unimplemented behavior: '#default#homePage'
+2016-02-20 22:27:30 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 22:27:30 INFO  ValidatorWorkerThread:85 - https://accounts.google.com/SignUp?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ltmpl=default is a valid url
+2016-02-20 22:27:31 INFO  ValidatorWorkerThread:85 - https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.co.in/ is a valid url
+2016-02-20 22:27:31 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:31 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:31 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:31 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:31 INFO  ValidatorWorkerThread:85 - https://books.google.co.in/bkshp?hl=en&tab=wp is a valid url
+2016-02-20 22:27:31 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:31 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:31 INFO  InputElementFactory:125 - Bad input type: "search", creating a text input
+2016-02-20 22:27:31 INFO  InputElementFactory:125 - Bad input type: "search", creating a text input
+2016-02-20 22:27:31 INFO  ValidatorWorkerThread:85 - http://www.google.com/support/accounts?hl=en is a valid url
+2016-02-20 22:27:31 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:31 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:31 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/chrome/browser/?hl=en&brand=GNAM&utm_source=en-hpp&utm_medium=toast&utm_campaign=msie-eol is a valid url
+2016-02-20 22:27:31 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:31 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:32 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/advanced_search?hl=en-IN&authuser=0 is a valid url
+2016-02-20 22:27:32 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:32 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:32 INFO  ValidatorWorkerThread:85 - http://www.google.co.in/preferences?hl=en is a valid url
+2016-02-20 22:27:32 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:32 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:32 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/language_tools?hl=en-IN&authuser=0 is a valid url
+2016-02-20 22:27:32 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:32 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:32 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 22:27:32 INFO  ValidatorWorkerThread:85 - https://www.youtube.com/?gl=IN&tab=w1 is a valid url
+2016-02-20 22:27:32 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:32 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 22:27:32 INFO  ValidatorWorkerThread:85 - https://play.google.com/?hl=en&tab=w8 is a valid url
+2016-02-20 22:27:32 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:32 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:32 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:32 INFO  ValidatorWorkerThread:85 - https://mail.google.com/mail/?tab=wm is a valid url
+2016-02-20 22:27:33 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:33 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:33 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 22:27:33 INFO  ValidatorWorkerThread:85 - https://drive.google.com/?tab=wo is a valid url
+2016-02-20 22:27:33 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:33 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:33 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 22:27:33 INFO  ValidatorWorkerThread:85 - https://docs.google.com/document/?usp=docs_alc is a valid url
+2016-02-20 22:27:33 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:33 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:33 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 22:27:33 INFO  ValidatorWorkerThread:85 - https://www.google.com/calendar?tab=wc is a valid url
+2016-02-20 22:27:33 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:33 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:34 INFO  ValidatorWorkerThread:85 - https://photos.google.com/?tab=wq is a valid url
+2016-02-20 22:27:34 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:34 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:34 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 22:27:34 INFO  ValidatorWorkerThread:85 - https://www.blogger.com/?tab=wj is a valid url
+2016-02-20 22:27:34 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:34 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:38 INFO  ValidatorWorkerThread:85 - https://news.google.co.in/nwshp?hl=en&tab=wn is a valid url
+2016-02-20 22:27:38 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:38 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:38 INFO  ValidatorWorkerFactory:47 - URL list identified as not empty
+2016-02-20 22:27:38 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.google.co.in/services/
+2016-02-20 22:27:38 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://plus.google.com/104205742743787718296
+2016-02-20 22:27:38 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefdomain?prefdom=US&sig=__nbwUy4-C0HRxs93JTDOVEd75jcQ%3D
+2016-02-20 22:27:38 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/intl/en/about.html
+2016-02-20 22:27:38 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/intl/en/policies/privacy/
+2016-02-20 22:27:38 INFO  ValidatorWorkerThread:85 - http://www.google.co.in/services/ is a valid url
+2016-02-20 22:27:38 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:38 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:39 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/intl/en/about.html is a valid url
+2016-02-20 22:27:39 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:39 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:39 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/intl/en/policies/privacy/ is a valid url
+2016-02-20 22:27:39 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:39 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:39 WARN  HTMLDivElement:996 - Unimplemented behavior: #default#userdata
+2016-02-20 22:27:39 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefdomain?prefdom=US&sig=__nbwUy4-C0HRxs93JTDOVEd75jcQ%3D is a valid url
+2016-02-20 22:27:39 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:39 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:42 INFO  ValidatorWorkerThread:85 - https://plus.google.com/104205742743787718296 is a valid url
+2016-02-20 22:27:42 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:42 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:42 INFO  ValidatorWorkerFactory:47 - URL list identified as not empty
+2016-02-20 22:27:42 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/intl/en/policies/terms/
+2016-02-20 22:27:42 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/intl/en/policies/terms/ is a valid url
+2016-02-20 22:27:42 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:27:42 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:27:42 INFO  ValidatorWorkerFactory:60 - Finished all validation threads
+2016-02-20 22:27:43 INFO  ValidatorWorkerFactory:80 - Finished appending to the HTML Report
+2016-02-20 22:41:22 INFO  PropertyReaderUtil:62 - Reading properties from file : LinkValidatorProperties.yaml
+2016-02-20 22:41:23 INFO  PropertyReaderUtil:29 - Loading base urls from file : BaseURLs.txt
+2016-02-20 22:41:23 INFO  PropertyReaderUtil:35 - BaseURL identified : https://www.google.co.in/intl/en/policies/privacy/
+2016-02-20 22:41:23 INFO  PropertyReaderUtil:35 - BaseURL identified : https://news.google.co.in/nwshp?hl=en&tab=wn
+2016-02-20 22:41:24 INFO  PropertyReaderUtil:35 - BaseURL identified : http://www.google.co.in/services/
+2016-02-20 22:41:24 INFO  PropertyReaderUtil:52 - Validation Depth identified : ONE
+2016-02-20 22:41:24 INFO  PropertyReaderUtil:57 - Error Strings identified : [When you use Google services, you trust us with your information., xyz]
+2016-02-20 22:41:24 INFO  ValidatorWorkerFactory:64 - Adding Table Headers to HTML Report
+2016-02-20 22:41:24 INFO  ValidatorWorkerFactory:66 - Initializing the url list with the base urls
+2016-02-20 22:41:24 INFO  ValidatorWorkerFactory:43 - ========== Link Validation begins ===============
+2016-02-20 22:41:24 INFO  ValidatorWorkerFactory:47 - URL list identified as not empty
+2016-02-20 22:41:24 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://news.google.co.in/nwshp?hl=en&tab=wn
+2016-02-20 22:41:24 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.google.co.in/services/
+2016-02-20 22:41:24 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/intl/en/policies/privacy/
+2016-02-20 22:41:26 INFO  ValidatorWorkerThread:85 - http://www.google.co.in/services/ is a valid url
+2016-02-20 22:41:26 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:41:26 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:41:27 INFO  ValidatorWorkerThread:88 - https://www.google.co.in/intl/en/policies/privacy/ is an invalid url
+2016-02-20 22:41:27 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:41:27 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:41:33 INFO  ValidatorWorkerThread:85 - https://news.google.co.in/nwshp?hl=en&tab=wn is a valid url
+2016-02-20 22:41:33 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:41:33 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:41:33 INFO  ValidatorWorkerFactory:60 - Finished all validation threads
+2016-02-20 22:41:33 INFO  ValidatorWorkerFactory:80 - Finished appending to the HTML Report
+2016-02-20 22:43:07 INFO  PropertyReaderUtil:62 - Reading properties from file : LinkValidatorProperties.yaml
+2016-02-20 22:43:07 INFO  PropertyReaderUtil:29 - Loading base urls from file : BaseURLs.txt
+2016-02-20 22:43:07 INFO  PropertyReaderUtil:35 - BaseURL identified : https://www.google.co.in/intl/en/policies/privacy/
+2016-02-20 22:43:08 INFO  PropertyReaderUtil:35 - BaseURL identified : https://news.google.co.in/nwshp?hl=en&tab=wn
+2016-02-20 22:43:08 INFO  PropertyReaderUtil:35 - BaseURL identified : http://www.google.co.in/services/
+2016-02-20 22:43:08 INFO  PropertyReaderUtil:52 - Validation Depth identified : ONE
+2016-02-20 22:43:08 INFO  PropertyReaderUtil:57 - Error Strings identified : [When you use Google services, you trust us with your information., xyz]
+2016-02-20 22:43:08 INFO  ValidatorWorkerFactory:64 - Adding Table Headers to HTML Report
+2016-02-20 22:43:08 INFO  ValidatorWorkerFactory:66 - Initializing the url list with the base urls
+2016-02-20 22:43:08 INFO  ValidatorWorkerFactory:43 - ========== Link Validation begins ===============
+2016-02-20 22:43:08 INFO  ValidatorWorkerFactory:47 - URL list identified as not empty
+2016-02-20 22:43:08 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/intl/en/policies/privacy/
+2016-02-20 22:43:08 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://news.google.co.in/nwshp?hl=en&tab=wn
+2016-02-20 22:43:08 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.google.co.in/services/
+2016-02-20 22:43:10 INFO  ValidatorWorkerThread:85 - http://www.google.co.in/services/ is a valid url
+2016-02-20 22:43:10 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:43:10 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:43:11 INFO  ValidatorWorkerThread:88 - https://www.google.co.in/intl/en/policies/privacy/ is an invalid url
+2016-02-20 22:43:11 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:43:11 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:43:26 ERROR ValidatorWorkerThread:93 - Read timed out
+2016-02-20 22:43:26 INFO  ValidatorWorkerThread:94 - https://news.google.co.in/nwshp?hl=en&tab=wn is an invalid url
+2016-02-20 22:43:26 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:43:26 INFO  ValidatorWorkerFactory:60 - Finished all validation threads
+2016-02-20 22:43:26 INFO  ValidatorWorkerFactory:80 - Finished appending to the HTML Report
+2016-02-20 22:48:05 INFO  PropertyReaderUtil:62 - Reading properties from file : LinkValidatorProperties.yaml
+2016-02-20 22:48:05 INFO  PropertyReaderUtil:29 - Loading base urls from file : BaseURLs.txt
+2016-02-20 22:48:05 INFO  PropertyReaderUtil:35 - BaseURL identified : https://www.google.co.in
+2016-02-20 22:48:05 INFO  PropertyReaderUtil:35 - BaseURL identified : http://www.gmail.com/
+2016-02-20 22:48:05 INFO  PropertyReaderUtil:52 - Validation Depth identified : TWO
+2016-02-20 22:48:05 INFO  PropertyReaderUtil:57 - Error Strings identified : [When you use Google services, you trust us with your information., xyz]
+2016-02-20 22:48:05 INFO  ValidatorWorkerFactory:64 - Adding Table Headers to HTML Report
+2016-02-20 22:48:05 INFO  ValidatorWorkerFactory:66 - Initializing the url list with the base urls
+2016-02-20 22:48:05 INFO  ValidatorWorkerFactory:43 - ========== Link Validation begins ===============
+2016-02-20 22:48:05 INFO  ValidatorWorkerFactory:47 - URL list identified as not empty
+2016-02-20 22:48:06 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in
+2016-02-20 22:48:06 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.gmail.com/
+2016-02-20 22:48:09 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 22:48:09 WARN  HTMLDivElement:996 - Unimplemented behavior: #default#userdata
+2016-02-20 22:48:09 INFO  ValidatorWorkerThread:85 - http://www.gmail.com/ is a valid url
+2016-02-20 22:48:09 INFO  ValidatorWorkerThread:85 - https://www.google.co.in is a valid url
+2016-02-20 22:48:09 INFO  ValidatorWorkerThread:53 - Number of child urls identified : 7
+2016-02-20 22:48:09 INFO  ValidatorWorkerThread:53 - Number of child urls identified : 39
+2016-02-20 22:48:09 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a class="need-help" href="https://accounts.google.com/RecoverAccount?service=mail&amp;continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;ignoreShadow=0&amp;hl=en">]
+2016-02-20 22:48:09 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:1});" class="gbzt gbz0l gbp1" id="gb_1" href="https://www.google.co.in/webhp?tab=ww">]
+2016-02-20 22:48:09 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://accounts.google.com/AccountChooser?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;hl=en&amp;service=mail&amp;scc=1">]
+2016-02-20 22:48:09 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:2});" class="gbzt" id="gb_2" href="https://www.google.co.in/imghp?hl=en&amp;tab=wi">]
+2016-02-20 22:48:09 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://accounts.google.com/SignUp?service=mail&amp;continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;ltmpl=default">]
+2016-02-20 22:48:09 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:8});" class="gbzt" id="gb_8" href="https://maps.google.co.in/maps?hl=en&amp;tab=wl">]
+2016-02-20 22:48:09 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.com/intl/en/about" target="_blank">]
+2016-02-20 22:48:09 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:78});" class="gbzt" id="gb_78" href="https://play.google.com/?hl=en&amp;tab=w8">]
+2016-02-20 22:48:09 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://accounts.google.com/TOS?loc=IN&amp;hl=en&amp;privacy=true" target="_blank">]
+2016-02-20 22:48:09 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://accounts.google.com/TOS?loc=IN&amp;hl=en" target="_blank">]
+2016-02-20 22:48:09 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:36});" class="gbzt" id="gb_36" href="https://www.youtube.com/?gl=IN&amp;tab=w1">]
+2016-02-20 22:48:09 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="http://www.google.com/support/accounts?hl=en" target="_blank">]
+2016-02-20 22:48:09 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:09 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:09 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:5});" class="gbzt" id="gb_5" href="https://news.google.co.in/nwshp?hl=en&amp;tab=wn">]
+2016-02-20 22:48:09 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:23});" class="gbzt" id="gb_23" href="https://mail.google.com/mail/?tab=wm">]
+2016-02-20 22:48:09 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:49});" class="gbzt" id="gb_49" href="https://drive.google.com/?tab=wo">]
+2016-02-20 22:48:09 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a class="gbgt" id="gbztm" href="https://www.google.co.in/intl/en/options/" onclick="gbar.tg(event,this)" aria-haspopup="true" aria-owns="gbd">]
+2016-02-20 22:48:09 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:24});" class="gbmt" id="gb_24" href="https://www.google.com/calendar?tab=wc">]
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:51});" class="gbmt" id="gb_51" href="https://translate.google.co.in/?hl=en&amp;tab=wT">]
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:10});" class="gbmt" id="gb_10" href="https://books.google.co.in/bkshp?hl=en&amp;tab=wp">]
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:30});" class="gbmt" id="gb_30" href="https://www.blogger.com/?tab=wj">]
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:31});" class="gbmt" id="gb_31" href="https://photos.google.com/?tab=wq">]
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:25});" class="gbmt" id="gb_25" href="https://docs.google.com/document/?usp=docs_alc">]
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a target="_top" href="https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.co.in/" onclick="gbar.logger.il(9,{l:&apos;i&apos;})" id="gb_70" class="gbgt">]
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a class="gbgt" id="gbg5" href="http://www.google.co.in/preferences?hl=en" title="Options" onclick="gbar.tg(event,this)" aria-haspopup="true" aria-owns="gbd5">]
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a class="gbmt" href="/preferences?hl=en">]
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a class="gbmt" href="http://www.google.co.in/history/optout?hl=en">]
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/chrome/browser/?hl=en&amp;brand=GNAM&amp;utm_source=en-hpp&amp;utm_medium=toast&amp;utm_campaign=msie-eol" onclick="google.promos&amp;&amp;google.promos.toast&amp;&amp; google.promos.toast.cl()">]
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/advanced_search?hl=en-IN&amp;authuser=0">]
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/language_tools?hl=en-IN&amp;authuser=0">]
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_yZNT9LtoAk5jb3pwcpSSAQcgqnQ%3D&amp;hl=hi&amp;source=homepage" data-ved="0ahUKEwiVte3D7IbLAhVFGqYKHWawADQQ2ZgBCAU">]
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_yZNT9LtoAk5jb3pwcpSSAQcgqnQ%3D&amp;hl=bn&amp;source=homepage" data-ved="0ahUKEwiVte3D7IbLAhVFGqYKHWawADQQ2ZgBCAY">]
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_yZNT9LtoAk5jb3pwcpSSAQcgqnQ%3D&amp;hl=te&amp;source=homepage" data-ved="0ahUKEwiVte3D7IbLAhVFGqYKHWawADQQ2ZgBCAc">]
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_yZNT9LtoAk5jb3pwcpSSAQcgqnQ%3D&amp;hl=mr&amp;source=homepage" data-ved="0ahUKEwiVte3D7IbLAhVFGqYKHWawADQQ2ZgBCAg">]
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_yZNT9LtoAk5jb3pwcpSSAQcgqnQ%3D&amp;hl=ta&amp;source=homepage" data-ved="0ahUKEwiVte3D7IbLAhVFGqYKHWawADQQ2ZgBCAk">]
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_yZNT9LtoAk5jb3pwcpSSAQcgqnQ%3D&amp;hl=gu&amp;source=homepage" data-ved="0ahUKEwiVte3D7IbLAhVFGqYKHWawADQQ2ZgBCAo">]
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_yZNT9LtoAk5jb3pwcpSSAQcgqnQ%3D&amp;hl=kn&amp;source=homepage" data-ved="0ahUKEwiVte3D7IbLAhVFGqYKHWawADQQ2ZgBCAs">]
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_yZNT9LtoAk5jb3pwcpSSAQcgqnQ%3D&amp;hl=ml&amp;source=homepage" data-ved="0ahUKEwiVte3D7IbLAhVFGqYKHWawADQQ2ZgBCAw">]
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_yZNT9LtoAk5jb3pwcpSSAQcgqnQ%3D&amp;hl=pa&amp;source=homepage" data-ved="0ahUKEwiVte3D7IbLAhVFGqYKHWawADQQ2ZgBCA0">]
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/intl/en/ads/">]
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="http://www.google.co.in/services/">]
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://plus.google.com/104205742743787718296" rel="publisher">]
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/intl/en/about.html">]
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefdomain?prefdom=US&amp;sig=__FHWRbw1tVI0BPv2iMxqb2Z5ljfU%3D" id="fehl">]
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/intl/en/policies/privacy/">]
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/intl/en/policies/terms/">]
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:10 INFO  ValidatorWorkerFactory:47 - URL list identified as not empty
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://accounts.google.com/RecoverAccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ignoreShadow=0&hl=en
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/webhp?tab=ww
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://accounts.google.com/AccountChooser?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&hl=en&service=mail&scc=1
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://maps.google.co.in/maps?hl=en&tab=wl
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://accounts.google.com/SignUp?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ltmpl=default
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/imghp?hl=en&tab=wi
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://accounts.google.com/TOS?loc=IN&hl=en&privacy=true
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://play.google.com/?hl=en&tab=w8
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.com/intl/en/about
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.google.com/support/accounts?hl=en
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.youtube.com/?gl=IN&tab=w1
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://accounts.google.com/TOS?loc=IN&hl=en
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://drive.google.com/?tab=wo
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://mail.google.com/mail/?tab=wm
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://news.google.co.in/nwshp?hl=en&tab=wn
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://translate.google.co.in/?hl=en&tab=wT
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.com/calendar?tab=wc
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/intl/en/options/
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://photos.google.com/?tab=wq
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.blogger.com/?tab=wj
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://books.google.co.in/bkshp?hl=en&tab=wp
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.google.co.in/preferences?hl=en
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.co.in/
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://docs.google.com/document/?usp=docs_alc
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/chrome/browser/?hl=en&brand=GNAM&utm_source=en-hpp&utm_medium=toast&utm_campaign=msie-eol
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.google.co.in/history/optout?hl=en
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/preferences?hl=en
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_yZNT9LtoAk5jb3pwcpSSAQcgqnQ%3D&hl=hi&source=homepage
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/language_tools?hl=en-IN&authuser=0
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/advanced_search?hl=en-IN&authuser=0
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_yZNT9LtoAk5jb3pwcpSSAQcgqnQ%3D&hl=mr&source=homepage
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_yZNT9LtoAk5jb3pwcpSSAQcgqnQ%3D&hl=te&source=homepage
+2016-02-20 22:48:10 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_yZNT9LtoAk5jb3pwcpSSAQcgqnQ%3D&hl=bn&source=homepage
+2016-02-20 22:48:11 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_yZNT9LtoAk5jb3pwcpSSAQcgqnQ%3D&hl=kn&source=homepage
+2016-02-20 22:48:11 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_yZNT9LtoAk5jb3pwcpSSAQcgqnQ%3D&hl=gu&source=homepage
+2016-02-20 22:48:11 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_yZNT9LtoAk5jb3pwcpSSAQcgqnQ%3D&hl=ta&source=homepage
+2016-02-20 22:48:11 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/intl/en/ads/
+2016-02-20 22:48:11 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_yZNT9LtoAk5jb3pwcpSSAQcgqnQ%3D&hl=pa&source=homepage
+2016-02-20 22:48:11 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_yZNT9LtoAk5jb3pwcpSSAQcgqnQ%3D&hl=ml&source=homepage
+2016-02-20 22:48:11 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefdomain?prefdom=US&sig=__FHWRbw1tVI0BPv2iMxqb2Z5ljfU%3D
+2016-02-20 22:48:11 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/intl/en/about.html
+2016-02-20 22:48:11 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://plus.google.com/104205742743787718296
+2016-02-20 22:48:11 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.google.co.in/services/
+2016-02-20 22:48:11 WARN  HTMLDivElement:996 - Unimplemented behavior: #default#userdata
+2016-02-20 22:48:11 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/webhp?tab=ww is a valid url
+2016-02-20 22:48:11 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:11 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:11 INFO  ValidatorWorkerThread:85 - http://www.google.co.in/history/optout?hl=en is a valid url
+2016-02-20 22:48:11 INFO  ValidatorWorkerThread:85 - http://www.google.co.in/services/ is a valid url
+2016-02-20 22:48:11 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:11 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:11 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:12 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:12 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/intl/en/ads/ is a valid url
+2016-02-20 22:48:12 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:12 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:12 WARN  HTMLDivElement:996 - Unimplemented behavior: #default#userdata
+2016-02-20 22:48:12 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/imghp?hl=en&tab=wi is a valid url
+2016-02-20 22:48:12 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:12 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:12 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/intl/en/options/ is a valid url
+2016-02-20 22:48:12 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:12 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:13 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 22:48:13 INFO  ValidatorWorkerThread:85 - https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.co.in/ is a valid url
+2016-02-20 22:48:13 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:13 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:13 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/intl/en/about.html is a valid url
+2016-02-20 22:48:13 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:13 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:13 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/preferences?hl=en is a valid url
+2016-02-20 22:48:13 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:13 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:14 INFO  ValidatorWorkerThread:85 - https://www.google.com/intl/en/about is a valid url
+2016-02-20 22:48:14 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:14 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_yZNT9LtoAk5jb3pwcpSSAQcgqnQ%3D&hl=gu&source=homepage is a valid url
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_yZNT9LtoAk5jb3pwcpSSAQcgqnQ%3D&hl=kn&source=homepage is a valid url
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_yZNT9LtoAk5jb3pwcpSSAQcgqnQ%3D&hl=bn&source=homepage is a valid url
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:85 - https://accounts.google.com/TOS?loc=IN&hl=en is a valid url
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_yZNT9LtoAk5jb3pwcpSSAQcgqnQ%3D&hl=te&source=homepage is a valid url
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:88 - https://accounts.google.com/TOS?loc=IN&hl=en&privacy=true is an invalid url
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:85 - https://translate.google.co.in/?hl=en&tab=wT is a valid url
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:85 - http://www.google.co.in/preferences?hl=en is a valid url
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:15 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_yZNT9LtoAk5jb3pwcpSSAQcgqnQ%3D&hl=mr&source=homepage is a valid url
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:85 - https://accounts.google.com/AccountChooser?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&hl=en&service=mail&scc=1 is a valid url
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_yZNT9LtoAk5jb3pwcpSSAQcgqnQ%3D&hl=hi&source=homepage is a valid url
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:15 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:16 INFO  ValidatorWorkerThread:85 - https://maps.google.co.in/maps?hl=en&tab=wl is a valid url
+2016-02-20 22:48:16 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:16 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:16 WARN  HTMLDivElement:996 - Unimplemented behavior: #default#userdata
+2016-02-20 22:48:16 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefdomain?prefdom=US&sig=__FHWRbw1tVI0BPv2iMxqb2Z5ljfU%3D is a valid url
+2016-02-20 22:48:16 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:16 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:16 INFO  ValidatorWorkerThread:85 - https://accounts.google.com/RecoverAccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ignoreShadow=0&hl=en is a valid url
+2016-02-20 22:48:16 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:16 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:17 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_yZNT9LtoAk5jb3pwcpSSAQcgqnQ%3D&hl=ml&source=homepage is a valid url
+2016-02-20 22:48:17 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:17 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:17 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_yZNT9LtoAk5jb3pwcpSSAQcgqnQ%3D&hl=ta&source=homepage is a valid url
+2016-02-20 22:48:17 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:17 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:17 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_yZNT9LtoAk5jb3pwcpSSAQcgqnQ%3D&hl=pa&source=homepage is a valid url
+2016-02-20 22:48:17 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:17 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:17 INFO  ValidatorWorkerThread:85 - https://books.google.co.in/bkshp?hl=en&tab=wp is a valid url
+2016-02-20 22:48:17 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:17 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:17 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/advanced_search?hl=en-IN&authuser=0 is a valid url
+2016-02-20 22:48:17 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:17 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:17 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/chrome/browser/?hl=en&brand=GNAM&utm_source=en-hpp&utm_medium=toast&utm_campaign=msie-eol is a valid url
+2016-02-20 22:48:17 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:17 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:17 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 22:48:17 INFO  ValidatorWorkerThread:85 - https://mail.google.com/mail/?tab=wm is a valid url
+2016-02-20 22:48:17 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:17 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:18 INFO  InputElementFactory:125 - Bad input type: "tel", creating a text input
+2016-02-20 22:48:18 WARN  HTMLDivElement:996 - Unimplemented behavior: '#default#homePage'
+2016-02-20 22:48:18 INFO  ValidatorWorkerThread:85 - https://accounts.google.com/SignUp?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ltmpl=default is a valid url
+2016-02-20 22:48:18 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:18 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:18 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/language_tools?hl=en-IN&authuser=0 is a valid url
+2016-02-20 22:48:18 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:18 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:19 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 22:48:19 INFO  ValidatorWorkerThread:85 - https://drive.google.com/?tab=wo is a valid url
+2016-02-20 22:48:19 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:19 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:20 INFO  ValidatorWorkerThread:85 - https://play.google.com/?hl=en&tab=w8 is a valid url
+2016-02-20 22:48:20 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:20 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:20 INFO  ValidatorWorkerThread:85 - https://photos.google.com/?tab=wq is a valid url
+2016-02-20 22:48:20 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:20 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:21 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 22:48:21 INFO  ValidatorWorkerThread:85 - https://www.youtube.com/?gl=IN&tab=w1 is a valid url
+2016-02-20 22:48:21 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:21 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:21 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 22:48:21 INFO  ValidatorWorkerThread:85 - https://docs.google.com/document/?usp=docs_alc is a valid url
+2016-02-20 22:48:21 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:21 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:22 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 22:48:22 INFO  ValidatorWorkerThread:85 - https://www.blogger.com/?tab=wj is a valid url
+2016-02-20 22:48:22 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:22 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:22 INFO  ValidatorWorkerThread:85 - https://plus.google.com/104205742743787718296 is a valid url
+2016-02-20 22:48:22 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:22 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:22 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 22:48:22 INFO  ValidatorWorkerThread:85 - https://www.google.com/calendar?tab=wc is a valid url
+2016-02-20 22:48:22 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:22 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:22 INFO  InputElementFactory:125 - Bad input type: "search", creating a text input
+2016-02-20 22:48:22 INFO  InputElementFactory:125 - Bad input type: "search", creating a text input
+2016-02-20 22:48:22 INFO  ValidatorWorkerThread:85 - http://www.google.com/support/accounts?hl=en is a valid url
+2016-02-20 22:48:22 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:22 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:25 INFO  ValidatorWorkerThread:85 - https://news.google.co.in/nwshp?hl=en&tab=wn is a valid url
+2016-02-20 22:48:25 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:25 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:25 INFO  ValidatorWorkerFactory:47 - URL list identified as not empty
+2016-02-20 22:48:25 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/intl/en/policies/privacy/
+2016-02-20 22:48:25 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/intl/en/policies/terms/
+2016-02-20 22:48:26 INFO  ValidatorWorkerThread:88 - https://www.google.co.in/intl/en/policies/privacy/ is an invalid url
+2016-02-20 22:48:26 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:26 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:26 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/intl/en/policies/terms/ is a valid url
+2016-02-20 22:48:26 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:48:26 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:48:26 INFO  ValidatorWorkerFactory:60 - Finished all validation threads
+2016-02-20 22:48:26 INFO  ValidatorWorkerFactory:80 - Finished appending to the HTML Report
+2016-02-20 22:51:59 INFO  PropertyReaderUtil:62 - Reading properties from file : LinkValidatorProperties.yaml
+2016-02-20 22:51:59 INFO  PropertyReaderUtil:29 - Loading base urls from file : BaseURLs.txt
+2016-02-20 22:51:59 INFO  PropertyReaderUtil:35 - BaseURL identified : https://www.google.co.in
+2016-02-20 22:52:00 INFO  PropertyReaderUtil:35 - BaseURL identified : http://www.gmail.com/
+2016-02-20 22:52:00 INFO  PropertyReaderUtil:52 - Validation Depth identified : TWO
+2016-02-20 22:52:00 INFO  PropertyReaderUtil:57 - Error Strings identified : [When you use Google services, you trust us with your information., xyz]
+2016-02-20 22:52:00 INFO  ValidatorWorkerFactory:64 - Adding Table Headers to HTML Report
+2016-02-20 22:52:00 INFO  ValidatorWorkerFactory:66 - Initializing the url list with the base urls
+2016-02-20 22:52:00 INFO  ValidatorWorkerFactory:43 - ========== Link Validation begins ===============
+2016-02-20 22:52:00 INFO  ValidatorWorkerFactory:47 - URL list identified as not empty
+2016-02-20 22:52:01 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.gmail.com/
+2016-02-20 22:52:01 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in
+2016-02-20 22:52:04 WARN  HTMLDivElement:996 - Unimplemented behavior: #default#userdata
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:85 - https://www.google.co.in is a valid url
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:53 - Number of child urls identified : 39
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:1});" class="gbzt gbz0l gbp1" id="gb_1" href="https://www.google.co.in/webhp?tab=ww">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:2});" class="gbzt" id="gb_2" href="https://www.google.co.in/imghp?hl=en&amp;tab=wi">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:8});" class="gbzt" id="gb_8" href="https://maps.google.co.in/maps?hl=en&amp;tab=wl">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:78});" class="gbzt" id="gb_78" href="https://play.google.com/?hl=en&amp;tab=w8">]
+2016-02-20 22:52:04 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:85 - http://www.gmail.com/ is a valid url
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:53 - Number of child urls identified : 7
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:36});" class="gbzt" id="gb_36" href="https://www.youtube.com/?gl=IN&amp;tab=w1">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a class="need-help" href="https://accounts.google.com/RecoverAccount?service=mail&amp;continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;ignoreShadow=0&amp;hl=en">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:5});" class="gbzt" id="gb_5" href="https://news.google.co.in/nwshp?hl=en&amp;tab=wn">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://accounts.google.com/AccountChooser?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;hl=en&amp;service=mail&amp;scc=1">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:23});" class="gbzt" id="gb_23" href="https://mail.google.com/mail/?tab=wm">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://accounts.google.com/SignUp?service=mail&amp;continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;ltmpl=default">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:49});" class="gbzt" id="gb_49" href="https://drive.google.com/?tab=wo">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.com/intl/en/about" target="_blank">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a class="gbgt" id="gbztm" href="https://www.google.co.in/intl/en/options/" onclick="gbar.tg(event,this)" aria-haspopup="true" aria-owns="gbd">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://accounts.google.com/TOS?loc=IN&amp;hl=en&amp;privacy=true" target="_blank">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:24});" class="gbmt" id="gb_24" href="https://www.google.com/calendar?tab=wc">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://accounts.google.com/TOS?loc=IN&amp;hl=en" target="_blank">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="http://www.google.com/support/accounts?hl=en" target="_blank">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:51});" class="gbmt" id="gb_51" href="https://translate.google.co.in/?hl=en&amp;tab=wT">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:10});" class="gbmt" id="gb_10" href="https://books.google.co.in/bkshp?hl=en&amp;tab=wp">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:30});" class="gbmt" id="gb_30" href="https://www.blogger.com/?tab=wj">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:31});" class="gbmt" id="gb_31" href="https://photos.google.com/?tab=wq">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:25});" class="gbmt" id="gb_25" href="https://docs.google.com/document/?usp=docs_alc">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a target="_top" href="https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.co.in/" onclick="gbar.logger.il(9,{l:&apos;i&apos;})" id="gb_70" class="gbgt">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a class="gbgt" id="gbg5" href="http://www.google.co.in/preferences?hl=en" title="Options" onclick="gbar.tg(event,this)" aria-haspopup="true" aria-owns="gbd5">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a class="gbmt" href="/preferences?hl=en">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a class="gbmt" href="http://www.google.co.in/history/optout?hl=en">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/chrome/browser/?hl=en&amp;brand=GNAM&amp;utm_source=en-hpp&amp;utm_medium=toast&amp;utm_campaign=msie-eol" onclick="google.promos&amp;&amp;google.promos.toast&amp;&amp; google.promos.toast.cl()">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/advanced_search?hl=en-IN&amp;authuser=0">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/language_tools?hl=en-IN&amp;authuser=0">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_cCzc31nF50JyCGc--znSj88OxzE%3D&amp;hl=hi&amp;source=homepage" data-ved="0ahUKEwjuquWz7YbLAhVl6aYKHbUFC04Q2ZgBCAU">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_cCzc31nF50JyCGc--znSj88OxzE%3D&amp;hl=bn&amp;source=homepage" data-ved="0ahUKEwjuquWz7YbLAhVl6aYKHbUFC04Q2ZgBCAY">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_cCzc31nF50JyCGc--znSj88OxzE%3D&amp;hl=te&amp;source=homepage" data-ved="0ahUKEwjuquWz7YbLAhVl6aYKHbUFC04Q2ZgBCAc">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_cCzc31nF50JyCGc--znSj88OxzE%3D&amp;hl=mr&amp;source=homepage" data-ved="0ahUKEwjuquWz7YbLAhVl6aYKHbUFC04Q2ZgBCAg">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_cCzc31nF50JyCGc--znSj88OxzE%3D&amp;hl=ta&amp;source=homepage" data-ved="0ahUKEwjuquWz7YbLAhVl6aYKHbUFC04Q2ZgBCAk">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_cCzc31nF50JyCGc--znSj88OxzE%3D&amp;hl=gu&amp;source=homepage" data-ved="0ahUKEwjuquWz7YbLAhVl6aYKHbUFC04Q2ZgBCAo">]
+2016-02-20 22:52:04 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_cCzc31nF50JyCGc--znSj88OxzE%3D&amp;hl=kn&amp;source=homepage" data-ved="0ahUKEwjuquWz7YbLAhVl6aYKHbUFC04Q2ZgBCAs">]
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_cCzc31nF50JyCGc--znSj88OxzE%3D&amp;hl=ml&amp;source=homepage" data-ved="0ahUKEwjuquWz7YbLAhVl6aYKHbUFC04Q2ZgBCAw">]
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_cCzc31nF50JyCGc--znSj88OxzE%3D&amp;hl=pa&amp;source=homepage" data-ved="0ahUKEwjuquWz7YbLAhVl6aYKHbUFC04Q2ZgBCA0">]
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/intl/en/ads/">]
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="http://www.google.co.in/services/">]
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://plus.google.com/104205742743787718296" rel="publisher">]
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/intl/en/about.html">]
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefdomain?prefdom=US&amp;sig=__bwpDzvCyWmpC2Ljy4x8iuMtmsks%3D" id="fehl">]
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/intl/en/policies/privacy/">]
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/intl/en/policies/terms/">]
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:05 INFO  ValidatorWorkerFactory:47 - URL list identified as not empty
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/webhp?tab=ww
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.youtube.com/?gl=IN&tab=w1
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://play.google.com/?hl=en&tab=w8
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://maps.google.co.in/maps?hl=en&tab=wl
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/imghp?hl=en&tab=wi
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://news.google.co.in/nwshp?hl=en&tab=wn
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://accounts.google.com/RecoverAccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ignoreShadow=0&hl=en
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://accounts.google.com/SignUp?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ltmpl=default
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://mail.google.com/mail/?tab=wm
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://accounts.google.com/AccountChooser?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&hl=en&service=mail&scc=1
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/intl/en/options/
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.com/intl/en/about
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://drive.google.com/?tab=wo
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.blogger.com/?tab=wj
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://books.google.co.in/bkshp?hl=en&tab=wp
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://translate.google.co.in/?hl=en&tab=wT
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.google.com/support/accounts?hl=en
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://accounts.google.com/TOS?loc=IN&hl=en
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://accounts.google.com/TOS?loc=IN&hl=en&privacy=true
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.com/calendar?tab=wc
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/intl/en/ads/
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_cCzc31nF50JyCGc--znSj88OxzE%3D&hl=pa&source=homepage
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_cCzc31nF50JyCGc--znSj88OxzE%3D&hl=ml&source=homepage
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_cCzc31nF50JyCGc--znSj88OxzE%3D&hl=kn&source=homepage
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_cCzc31nF50JyCGc--znSj88OxzE%3D&hl=gu&source=homepage
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_cCzc31nF50JyCGc--znSj88OxzE%3D&hl=ta&source=homepage
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_cCzc31nF50JyCGc--znSj88OxzE%3D&hl=mr&source=homepage
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_cCzc31nF50JyCGc--znSj88OxzE%3D&hl=te&source=homepage
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_cCzc31nF50JyCGc--znSj88OxzE%3D&hl=bn&source=homepage
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_cCzc31nF50JyCGc--znSj88OxzE%3D&hl=hi&source=homepage
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/language_tools?hl=en-IN&authuser=0
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/advanced_search?hl=en-IN&authuser=0
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/chrome/browser/?hl=en&brand=GNAM&utm_source=en-hpp&utm_medium=toast&utm_campaign=msie-eol
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.google.co.in/history/optout?hl=en
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/preferences?hl=en
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.google.co.in/preferences?hl=en
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.co.in/
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://docs.google.com/document/?usp=docs_alc
+2016-02-20 22:52:05 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://photos.google.com/?tab=wq
+2016-02-20 22:52:06 WARN  HTMLDivElement:996 - Unimplemented behavior: #default#userdata
+2016-02-20 22:52:06 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/webhp?tab=ww is a valid url
+2016-02-20 22:52:06 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:06 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:06 WARN  HTMLDivElement:996 - Unimplemented behavior: #default#userdata
+2016-02-20 22:52:06 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/imghp?hl=en&tab=wi is a valid url
+2016-02-20 22:52:06 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:06 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:06 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/intl/en/ads/ is a valid url
+2016-02-20 22:52:06 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:06 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:07 INFO  ValidatorWorkerThread:85 - http://www.google.co.in/history/optout?hl=en is a valid url
+2016-02-20 22:52:07 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:07 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:07 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/intl/en/options/ is a valid url
+2016-02-20 22:52:07 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:07 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:09 INFO  ValidatorWorkerThread:85 - https://www.google.com/intl/en/about is a valid url
+2016-02-20 22:52:09 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:09 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:10 INFO  ValidatorWorkerThread:85 - https://translate.google.co.in/?hl=en&tab=wT is a valid url
+2016-02-20 22:52:10 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:10 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:11 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/preferences?hl=en is a valid url
+2016-02-20 22:52:11 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:11 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:11 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_cCzc31nF50JyCGc--znSj88OxzE%3D&hl=pa&source=homepage is a valid url
+2016-02-20 22:52:12 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:12 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_cCzc31nF50JyCGc--znSj88OxzE%3D&hl=kn&source=homepage is a valid url
+2016-02-20 22:52:12 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:12 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:12 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:12 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_cCzc31nF50JyCGc--znSj88OxzE%3D&hl=ml&source=homepage is a valid url
+2016-02-20 22:52:12 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:12 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:12 INFO  ValidatorWorkerThread:85 - https://maps.google.co.in/maps?hl=en&tab=wl is a valid url
+2016-02-20 22:52:12 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:12 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:13 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_cCzc31nF50JyCGc--znSj88OxzE%3D&hl=bn&source=homepage is a valid url
+2016-02-20 22:52:13 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:13 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:13 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_cCzc31nF50JyCGc--znSj88OxzE%3D&hl=mr&source=homepage is a valid url
+2016-02-20 22:52:13 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:13 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:14 INFO  ValidatorWorkerThread:85 - https://books.google.co.in/bkshp?hl=en&tab=wp is a valid url
+2016-02-20 22:52:14 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_cCzc31nF50JyCGc--znSj88OxzE%3D&hl=ta&source=homepage is a valid url
+2016-02-20 22:52:14 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:14 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:14 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_cCzc31nF50JyCGc--znSj88OxzE%3D&hl=hi&source=homepage is a valid url
+2016-02-20 22:52:14 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:14 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:14 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_cCzc31nF50JyCGc--znSj88OxzE%3D&hl=gu&source=homepage is a valid url
+2016-02-20 22:52:14 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:14 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:14 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:14 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:14 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_cCzc31nF50JyCGc--znSj88OxzE%3D&hl=te&source=homepage is a valid url
+2016-02-20 22:52:14 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:14 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:14 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 22:52:14 INFO  ValidatorWorkerThread:85 - https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.co.in/ is a valid url
+2016-02-20 22:52:14 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:14 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:14 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 22:52:14 INFO  ValidatorWorkerThread:85 - https://accounts.google.com/AccountChooser?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&hl=en&service=mail&scc=1 is a valid url
+2016-02-20 22:52:14 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:14 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:14 INFO  ValidatorWorkerThread:85 - https://accounts.google.com/RecoverAccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ignoreShadow=0&hl=en is a valid url
+2016-02-20 22:52:14 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:14 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:16 INFO  ValidatorWorkerThread:88 - https://accounts.google.com/TOS?loc=IN&hl=en&privacy=true is an invalid url
+2016-02-20 22:52:16 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:16 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:16 INFO  ValidatorWorkerThread:85 - https://accounts.google.com/TOS?loc=IN&hl=en is a valid url
+2016-02-20 22:52:16 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:16 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:16 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/advanced_search?hl=en-IN&authuser=0 is a valid url
+2016-02-20 22:52:16 INFO  ValidatorWorkerThread:85 - http://www.google.co.in/preferences?hl=en is a valid url
+2016-02-20 22:52:16 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:16 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:16 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:16 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:16 INFO  InputElementFactory:125 - Bad input type: "tel", creating a text input
+2016-02-20 22:52:16 WARN  HTMLDivElement:996 - Unimplemented behavior: '#default#homePage'
+2016-02-20 22:52:16 INFO  ValidatorWorkerThread:85 - https://accounts.google.com/SignUp?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ltmpl=default is a valid url
+2016-02-20 22:52:16 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:16 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:17 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 22:52:17 INFO  ValidatorWorkerThread:85 - https://mail.google.com/mail/?tab=wm is a valid url
+2016-02-20 22:52:17 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:17 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:17 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/chrome/browser/?hl=en&brand=GNAM&utm_source=en-hpp&utm_medium=toast&utm_campaign=msie-eol is a valid url
+2016-02-20 22:52:17 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:17 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:19 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 22:52:19 INFO  ValidatorWorkerThread:85 - https://drive.google.com/?tab=wo is a valid url
+2016-02-20 22:52:19 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:19 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:20 INFO  ValidatorWorkerThread:85 - https://play.google.com/?hl=en&tab=w8 is a valid url
+2016-02-20 22:52:20 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:20 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:20 INFO  InputElementFactory:125 - Bad input type: "search", creating a text input
+2016-02-20 22:52:20 INFO  InputElementFactory:125 - Bad input type: "search", creating a text input
+2016-02-20 22:52:20 INFO  ValidatorWorkerThread:85 - http://www.google.com/support/accounts?hl=en is a valid url
+2016-02-20 22:52:20 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:20 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:20 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/language_tools?hl=en-IN&authuser=0 is a valid url
+2016-02-20 22:52:20 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:20 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:20 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 22:52:21 INFO  ValidatorWorkerThread:85 - https://www.youtube.com/?gl=IN&tab=w1 is a valid url
+2016-02-20 22:52:21 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:21 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:23 INFO  ValidatorWorkerThread:85 - https://photos.google.com/?tab=wq is a valid url
+2016-02-20 22:52:23 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:23 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:23 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 22:52:23 INFO  ValidatorWorkerThread:85 - https://docs.google.com/document/?usp=docs_alc is a valid url
+2016-02-20 22:52:23 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:23 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:23 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 22:52:23 INFO  ValidatorWorkerThread:85 - https://www.google.com/calendar?tab=wc is a valid url
+2016-02-20 22:52:23 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:23 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:24 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 22:52:24 INFO  ValidatorWorkerThread:85 - https://www.blogger.com/?tab=wj is a valid url
+2016-02-20 22:52:24 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:24 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:27 INFO  ValidatorWorkerThread:85 - https://news.google.co.in/nwshp?hl=en&tab=wn is a valid url
+2016-02-20 22:52:27 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:27 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:27 INFO  ValidatorWorkerFactory:47 - URL list identified as not empty
+2016-02-20 22:52:27 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.google.co.in/services/
+2016-02-20 22:52:27 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://plus.google.com/104205742743787718296
+2016-02-20 22:52:27 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/intl/en/about.html
+2016-02-20 22:52:27 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefdomain?prefdom=US&sig=__bwpDzvCyWmpC2Ljy4x8iuMtmsks%3D
+2016-02-20 22:52:27 INFO  ValidatorWorkerThread:85 - http://www.google.co.in/services/ is a valid url
+2016-02-20 22:52:27 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:27 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:27 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/intl/en/about.html is a valid url
+2016-02-20 22:52:27 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:27 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:28 WARN  HTMLDivElement:996 - Unimplemented behavior: #default#userdata
+2016-02-20 22:52:28 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefdomain?prefdom=US&sig=__bwpDzvCyWmpC2Ljy4x8iuMtmsks%3D is a valid url
+2016-02-20 22:52:28 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:28 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:31 INFO  ValidatorWorkerThread:85 - https://plus.google.com/104205742743787718296 is a valid url
+2016-02-20 22:52:31 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:31 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:31 INFO  ValidatorWorkerFactory:47 - URL list identified as not empty
+2016-02-20 22:52:31 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/intl/en/policies/privacy/
+2016-02-20 22:52:31 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/intl/en/policies/terms/
+2016-02-20 22:52:32 INFO  ValidatorWorkerThread:88 - https://www.google.co.in/intl/en/policies/privacy/ is an invalid url
+2016-02-20 22:52:32 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:32 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:32 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/intl/en/policies/terms/ is a valid url
+2016-02-20 22:52:32 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 22:52:32 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 22:52:32 INFO  ValidatorWorkerFactory:60 - Finished all validation threads
+2016-02-20 22:52:32 INFO  ValidatorWorkerFactory:80 - Finished appending to the HTML Report
+2016-02-20 23:03:21 INFO  PropertyReaderUtil:62 - Reading properties from file : LinkValidatorProperties.yaml
+2016-02-20 23:03:22 INFO  PropertyReaderUtil:29 - Loading base urls from file : BaseURLs.txt
+2016-02-20 23:03:22 INFO  PropertyReaderUtil:35 - BaseURL identified : https://www.google.co.in
+2016-02-20 23:03:22 INFO  PropertyReaderUtil:35 - BaseURL identified : http://www.gmail.com/
+2016-02-20 23:03:23 INFO  PropertyReaderUtil:52 - Validation Depth identified : ONE
+2016-02-20 23:03:23 INFO  PropertyReaderUtil:57 - Error Strings identified : [When you use Google services, you trust us with your information., xyz]
+2016-02-20 23:03:23 INFO  ValidatorWorkerFactory:70 - Adding Table Headers to HTML Report
+2016-02-20 23:03:23 INFO  ValidatorWorkerFactory:72 - Initializing the url list with the base urls
+2016-02-20 23:03:23 INFO  ValidatorWorkerFactory:49 - ========== Link Validation begins ===============
+2016-02-20 23:03:23 INFO  ValidatorWorkerFactory:53 - URL list identified as not empty
+2016-02-20 23:03:23 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.gmail.com/
+2016-02-20 23:03:23 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in
+2016-02-20 23:03:26 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 23:03:26 INFO  ValidatorWorkerThread:85 - http://www.gmail.com/ is a valid url
+2016-02-20 23:03:26 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:03:26 WARN  HTMLDivElement:996 - Unimplemented behavior: #default#userdata
+2016-02-20 23:03:26 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:03:26 INFO  ValidatorWorkerThread:85 - https://www.google.co.in is a valid url
+2016-02-20 23:03:26 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:03:26 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:03:26 INFO  ValidatorWorkerFactory:66 - Finished all validation threads
+2016-02-20 23:03:26 INFO  ValidatorWorkerFactory:91 - Total links validated : 0
+2016-02-20 23:03:26 INFO  ValidatorWorkerFactory:86 - Finished appending to the HTML Report
+2016-02-20 23:05:30 INFO  PropertyReaderUtil:62 - Reading properties from file : LinkValidatorProperties.yaml
+2016-02-20 23:05:30 INFO  PropertyReaderUtil:29 - Loading base urls from file : BaseURLs.txt
+2016-02-20 23:05:30 INFO  PropertyReaderUtil:35 - BaseURL identified : https://www.google.co.in
+2016-02-20 23:05:31 INFO  PropertyReaderUtil:35 - BaseURL identified : http://www.gmail.com/
+2016-02-20 23:05:31 INFO  PropertyReaderUtil:52 - Validation Depth identified : ONE
+2016-02-20 23:05:31 INFO  PropertyReaderUtil:57 - Error Strings identified : [This page is inactive for maintenance, Yikes!!]
+2016-02-20 23:05:31 INFO  ValidatorWorkerFactory:70 - Adding Table Headers to HTML Report
+2016-02-20 23:05:31 INFO  ValidatorWorkerFactory:72 - Initializing the url list with the base urls
+2016-02-20 23:05:31 INFO  ValidatorWorkerFactory:49 - ========== Link Validation begins ===============
+2016-02-20 23:05:31 INFO  ValidatorWorkerFactory:53 - URL list identified as not empty
+2016-02-20 23:05:31 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in
+2016-02-20 23:05:31 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.gmail.com/
+2016-02-20 23:05:35 WARN  HTMLDivElement:996 - Unimplemented behavior: #default#userdata
+2016-02-20 23:05:35 INFO  ValidatorWorkerThread:85 - https://www.google.co.in is a valid url
+2016-02-20 23:05:35 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:05:35 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:05:35 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 23:05:35 INFO  ValidatorWorkerThread:85 - http://www.gmail.com/ is a valid url
+2016-02-20 23:05:35 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:05:35 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:05:35 INFO  ValidatorWorkerFactory:66 - Finished all validation threads
+2016-02-20 23:05:35 INFO  ValidatorWorkerFactory:91 - Total links validated : 02
+2016-02-20 23:05:35 INFO  ValidatorWorkerFactory:86 - Finished appending to the HTML Report
+2016-02-20 23:07:38 INFO  PropertyReaderUtil:62 - Reading properties from file : LinkValidatorProperties.yaml
+2016-02-20 23:07:38 INFO  PropertyReaderUtil:29 - Loading base urls from file : BaseURLs.txt
+2016-02-20 23:07:38 INFO  PropertyReaderUtil:35 - BaseURL identified : https://www.google.co.in
+2016-02-20 23:07:38 INFO  PropertyReaderUtil:35 - BaseURL identified : http://www.gmail.com/
+2016-02-20 23:07:39 INFO  PropertyReaderUtil:52 - Validation Depth identified : ONE
+2016-02-20 23:07:39 INFO  PropertyReaderUtil:57 - Error Strings identified : [This page is inactive for maintenance, Yikes!!]
+2016-02-20 23:07:39 INFO  ValidatorWorkerFactory:70 - Adding Table Headers to HTML Report
+2016-02-20 23:07:39 INFO  ValidatorWorkerFactory:72 - Initializing the url list with the base urls
+2016-02-20 23:07:39 INFO  ValidatorWorkerFactory:49 - ========== Link Validation begins ===============
+2016-02-20 23:07:39 INFO  ValidatorWorkerFactory:53 - URL list identified as not empty
+2016-02-20 23:07:39 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in
+2016-02-20 23:07:39 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.gmail.com/
+2016-02-20 23:07:42 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 23:07:42 WARN  HTMLDivElement:996 - Unimplemented behavior: #default#userdata
+2016-02-20 23:07:42 INFO  ValidatorWorkerThread:85 - http://www.gmail.com/ is a valid url
+2016-02-20 23:07:42 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:07:42 INFO  ValidatorWorkerThread:85 - https://www.google.co.in is a valid url
+2016-02-20 23:07:42 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:07:42 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:07:42 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:07:42 INFO  ValidatorWorkerFactory:66 - Finished all validation threads
+2016-02-20 23:07:42 INFO  ValidatorWorkerFactory:92 - Total links validated : 2
+2016-02-20 23:07:42 INFO  ValidatorWorkerFactory:86 - Finished appending to the HTML Report
+2016-02-20 23:08:09 INFO  PropertyReaderUtil:62 - Reading properties from file : LinkValidatorProperties.yaml
+2016-02-20 23:08:09 INFO  PropertyReaderUtil:29 - Loading base urls from file : BaseURLs.txt
+2016-02-20 23:08:09 INFO  PropertyReaderUtil:35 - BaseURL identified : https://www.google.co.in
+2016-02-20 23:08:09 INFO  PropertyReaderUtil:52 - Validation Depth identified : TWO
+2016-02-20 23:08:09 INFO  PropertyReaderUtil:57 - Error Strings identified : [This page is inactive for maintenance, Yikes!!]
+2016-02-20 23:08:09 INFO  ValidatorWorkerFactory:70 - Adding Table Headers to HTML Report
+2016-02-20 23:08:09 INFO  ValidatorWorkerFactory:72 - Initializing the url list with the base urls
+2016-02-20 23:08:09 INFO  ValidatorWorkerFactory:49 - ========== Link Validation begins ===============
+2016-02-20 23:08:09 INFO  ValidatorWorkerFactory:53 - URL list identified as not empty
+2016-02-20 23:08:09 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in
+2016-02-20 23:08:13 WARN  HTMLDivElement:996 - Unimplemented behavior: #default#userdata
+2016-02-20 23:08:13 INFO  ValidatorWorkerThread:85 - https://www.google.co.in is a valid url
+2016-02-20 23:08:13 INFO  ValidatorWorkerThread:53 - Number of child urls identified : 39
+2016-02-20 23:08:13 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:1});" class="gbzt gbz0l gbp1" id="gb_1" href="https://www.google.co.in/webhp?tab=ww">]
+2016-02-20 23:08:13 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:2});" class="gbzt" id="gb_2" href="https://www.google.co.in/imghp?hl=en&amp;tab=wi">]
+2016-02-20 23:08:13 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:8});" class="gbzt" id="gb_8" href="https://maps.google.co.in/maps?hl=en&amp;tab=wl">]
+2016-02-20 23:08:13 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:78});" class="gbzt" id="gb_78" href="https://play.google.com/?hl=en&amp;tab=w8">]
+2016-02-20 23:08:13 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:36});" class="gbzt" id="gb_36" href="https://www.youtube.com/?gl=IN&amp;tab=w1">]
+2016-02-20 23:08:13 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:5});" class="gbzt" id="gb_5" href="https://news.google.co.in/nwshp?hl=en&amp;tab=wn">]
+2016-02-20 23:08:13 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:23});" class="gbzt" id="gb_23" href="https://mail.google.com/mail/?tab=wm">]
+2016-02-20 23:08:13 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:49});" class="gbzt" id="gb_49" href="https://drive.google.com/?tab=wo">]
+2016-02-20 23:08:13 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a class="gbgt" id="gbztm" href="https://www.google.co.in/intl/en/options/" onclick="gbar.tg(event,this)" aria-haspopup="true" aria-owns="gbd">]
+2016-02-20 23:08:13 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:24});" class="gbmt" id="gb_24" href="https://www.google.com/calendar?tab=wc">]
+2016-02-20 23:08:13 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:51});" class="gbmt" id="gb_51" href="https://translate.google.co.in/?hl=en&amp;tab=wT">]
+2016-02-20 23:08:13 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:10});" class="gbmt" id="gb_10" href="https://books.google.co.in/bkshp?hl=en&amp;tab=wp">]
+2016-02-20 23:08:13 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:30});" class="gbmt" id="gb_30" href="https://www.blogger.com/?tab=wj">]
+2016-02-20 23:08:13 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.qs(this);gbar.logger.il(1,{t:31});" class="gbmt" id="gb_31" href="https://photos.google.com/?tab=wq">]
+2016-02-20 23:08:13 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a onclick="gbar.logger.il(1,{t:25});" class="gbmt" id="gb_25" href="https://docs.google.com/document/?usp=docs_alc">]
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a target="_top" href="https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.co.in/" onclick="gbar.logger.il(9,{l:&apos;i&apos;})" id="gb_70" class="gbgt">]
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a class="gbgt" id="gbg5" href="http://www.google.co.in/preferences?hl=en" title="Options" onclick="gbar.tg(event,this)" aria-haspopup="true" aria-owns="gbd5">]
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a class="gbmt" href="/preferences?hl=en">]
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a class="gbmt" href="http://www.google.co.in/history/optout?hl=en">]
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/chrome/browser/?hl=en&amp;brand=GNAM&amp;utm_source=en-hpp&amp;utm_medium=toast&amp;utm_campaign=msie-eol" onclick="google.promos&amp;&amp;google.promos.toast&amp;&amp; google.promos.toast.cl()">]
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/advanced_search?hl=en-IN&amp;authuser=0">]
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/language_tools?hl=en-IN&amp;authuser=0">]
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_J_d-YYeZHjIh9k5_jGp3EdC2ae0%3D&amp;hl=hi&amp;source=homepage" data-ved="0ahUKEwinufSB8YbLAhVjfaYKHaxvDYsQ2ZgBCAU">]
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_J_d-YYeZHjIh9k5_jGp3EdC2ae0%3D&amp;hl=bn&amp;source=homepage" data-ved="0ahUKEwinufSB8YbLAhVjfaYKHaxvDYsQ2ZgBCAY">]
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_J_d-YYeZHjIh9k5_jGp3EdC2ae0%3D&amp;hl=te&amp;source=homepage" data-ved="0ahUKEwinufSB8YbLAhVjfaYKHaxvDYsQ2ZgBCAc">]
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_J_d-YYeZHjIh9k5_jGp3EdC2ae0%3D&amp;hl=mr&amp;source=homepage" data-ved="0ahUKEwinufSB8YbLAhVjfaYKHaxvDYsQ2ZgBCAg">]
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_J_d-YYeZHjIh9k5_jGp3EdC2ae0%3D&amp;hl=ta&amp;source=homepage" data-ved="0ahUKEwinufSB8YbLAhVjfaYKHaxvDYsQ2ZgBCAk">]
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_J_d-YYeZHjIh9k5_jGp3EdC2ae0%3D&amp;hl=gu&amp;source=homepage" data-ved="0ahUKEwinufSB8YbLAhVjfaYKHaxvDYsQ2ZgBCAo">]
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_J_d-YYeZHjIh9k5_jGp3EdC2ae0%3D&amp;hl=kn&amp;source=homepage" data-ved="0ahUKEwinufSB8YbLAhVjfaYKHaxvDYsQ2ZgBCAs">]
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_J_d-YYeZHjIh9k5_jGp3EdC2ae0%3D&amp;hl=ml&amp;source=homepage" data-ved="0ahUKEwinufSB8YbLAhVjfaYKHaxvDYsQ2ZgBCAw">]
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefs?sig=0_J_d-YYeZHjIh9k5_jGp3EdC2ae0%3D&amp;hl=pa&amp;source=homepage" data-ved="0ahUKEwinufSB8YbLAhVjfaYKHaxvDYsQ2ZgBCA0">]
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/intl/en/ads/">]
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="http://www.google.co.in/services/">]
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://plus.google.com/104205742743787718296" rel="publisher">]
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/intl/en/about.html">]
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="https://www.google.co.in/setprefdomain?prefdom=US&amp;sig=__u2Tiio3HtY78sCsOj7bcNqcWaTU%3D" id="fehl">]
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/intl/en/policies/privacy/">]
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:60 - Child url identified : HtmlAnchor[<a href="/intl/en/policies/terms/">]
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:14 INFO  ValidatorWorkerFactory:53 - URL list identified as not empty
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://play.google.com/?hl=en&tab=w8
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/webhp?tab=ww
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_J_d-YYeZHjIh9k5_jGp3EdC2ae0%3D&hl=ta&source=homepage
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_J_d-YYeZHjIh9k5_jGp3EdC2ae0%3D&hl=te&source=homepage
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_J_d-YYeZHjIh9k5_jGp3EdC2ae0%3D&hl=bn&source=homepage
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_J_d-YYeZHjIh9k5_jGp3EdC2ae0%3D&hl=hi&source=homepage
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/language_tools?hl=en-IN&authuser=0
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/chrome/browser/?hl=en&brand=GNAM&utm_source=en-hpp&utm_medium=toast&utm_campaign=msie-eol
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/advanced_search?hl=en-IN&authuser=0
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.google.co.in/history/optout?hl=en
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/preferences?hl=en
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.google.co.in/preferences?hl=en
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://docs.google.com/document/?usp=docs_alc
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.co.in/
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://photos.google.com/?tab=wq
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.blogger.com/?tab=wj
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://books.google.co.in/bkshp?hl=en&tab=wp
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://translate.google.co.in/?hl=en&tab=wT
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://drive.google.com/?tab=wo
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.com/calendar?tab=wc
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/intl/en/options/
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://mail.google.com/mail/?tab=wm
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://news.google.co.in/nwshp?hl=en&tab=wn
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.youtube.com/?gl=IN&tab=w1
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://maps.google.co.in/maps?hl=en&tab=wl
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/imghp?hl=en&tab=wi
+2016-02-20 23:08:14 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_J_d-YYeZHjIh9k5_jGp3EdC2ae0%3D&hl=mr&source=homepage
+2016-02-20 23:08:16 INFO  ValidatorWorkerThread:85 - http://www.google.co.in/history/optout?hl=en is a valid url
+2016-02-20 23:08:16 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:16 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:17 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/preferences?hl=en is a valid url
+2016-02-20 23:08:17 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:17 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:18 WARN  HTMLDivElement:996 - Unimplemented behavior: #default#userdata
+2016-02-20 23:08:18 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/webhp?tab=ww is a valid url
+2016-02-20 23:08:18 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:18 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:18 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/intl/en/options/ is a valid url
+2016-02-20 23:08:18 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:18 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:18 WARN  HTMLDivElement:996 - Unimplemented behavior: #default#userdata
+2016-02-20 23:08:18 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/imghp?hl=en&tab=wi is a valid url
+2016-02-20 23:08:18 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:18 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:19 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_J_d-YYeZHjIh9k5_jGp3EdC2ae0%3D&hl=ta&source=homepage is a valid url
+2016-02-20 23:08:19 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:19 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:19 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_J_d-YYeZHjIh9k5_jGp3EdC2ae0%3D&hl=bn&source=homepage is a valid url
+2016-02-20 23:08:19 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_J_d-YYeZHjIh9k5_jGp3EdC2ae0%3D&hl=hi&source=homepage is a valid url
+2016-02-20 23:08:19 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:19 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:19 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:19 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:20 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_J_d-YYeZHjIh9k5_jGp3EdC2ae0%3D&hl=te&source=homepage is a valid url
+2016-02-20 23:08:20 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:20 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:20 INFO  ValidatorWorkerThread:85 - https://translate.google.co.in/?hl=en&tab=wT is a valid url
+2016-02-20 23:08:20 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:20 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:20 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_J_d-YYeZHjIh9k5_jGp3EdC2ae0%3D&hl=mr&source=homepage is a valid url
+2016-02-20 23:08:20 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:20 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:21 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/chrome/browser/?hl=en&brand=GNAM&utm_source=en-hpp&utm_medium=toast&utm_campaign=msie-eol is a valid url
+2016-02-20 23:08:21 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:21 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:21 INFO  ValidatorWorkerThread:85 - https://books.google.co.in/bkshp?hl=en&tab=wp is a valid url
+2016-02-20 23:08:21 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:21 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:21 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 23:08:21 INFO  ValidatorWorkerThread:85 - https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.co.in/ is a valid url
+2016-02-20 23:08:21 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:21 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:22 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/advanced_search?hl=en-IN&authuser=0 is a valid url
+2016-02-20 23:08:22 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:22 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:22 INFO  ValidatorWorkerThread:85 - https://maps.google.co.in/maps?hl=en&tab=wl is a valid url
+2016-02-20 23:08:22 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:22 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:22 INFO  ValidatorWorkerThread:85 - http://www.google.co.in/preferences?hl=en is a valid url
+2016-02-20 23:08:22 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:22 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:23 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/language_tools?hl=en-IN&authuser=0 is a valid url
+2016-02-20 23:08:23 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:23 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:24 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 23:08:24 INFO  ValidatorWorkerThread:85 - https://drive.google.com/?tab=wo is a valid url
+2016-02-20 23:08:24 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:24 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:24 INFO  ValidatorWorkerThread:85 - https://photos.google.com/?tab=wq is a valid url
+2016-02-20 23:08:24 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:24 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:24 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 23:08:24 INFO  ValidatorWorkerThread:85 - https://mail.google.com/mail/?tab=wm is a valid url
+2016-02-20 23:08:24 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:24 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:24 INFO  ValidatorWorkerThread:85 - https://play.google.com/?hl=en&tab=w8 is a valid url
+2016-02-20 23:08:24 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:24 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:25 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 23:08:25 INFO  ValidatorWorkerThread:85 - https://www.youtube.com/?gl=IN&tab=w1 is a valid url
+2016-02-20 23:08:25 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:25 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:25 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 23:08:25 INFO  ValidatorWorkerThread:85 - https://docs.google.com/document/?usp=docs_alc is a valid url
+2016-02-20 23:08:25 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:25 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:25 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 23:08:25 INFO  ValidatorWorkerThread:85 - https://www.blogger.com/?tab=wj is a valid url
+2016-02-20 23:08:25 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:25 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:25 INFO  InputElementFactory:125 - Bad input type: "email", creating a text input
+2016-02-20 23:08:25 INFO  ValidatorWorkerThread:85 - https://www.google.com/calendar?tab=wc is a valid url
+2016-02-20 23:08:25 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:25 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:29 INFO  ValidatorWorkerThread:85 - https://news.google.co.in/nwshp?hl=en&tab=wn is a valid url
+2016-02-20 23:08:29 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:29 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:29 INFO  ValidatorWorkerFactory:53 - URL list identified as not empty
+2016-02-20 23:08:29 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_J_d-YYeZHjIh9k5_jGp3EdC2ae0%3D&hl=gu&source=homepage
+2016-02-20 23:08:29 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_J_d-YYeZHjIh9k5_jGp3EdC2ae0%3D&hl=kn&source=homepage
+2016-02-20 23:08:29 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/intl/en/ads/
+2016-02-20 23:08:29 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_J_d-YYeZHjIh9k5_jGp3EdC2ae0%3D&hl=pa&source=homepage
+2016-02-20 23:08:29 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefs?sig=0_J_d-YYeZHjIh9k5_jGp3EdC2ae0%3D&hl=ml&source=homepage
+2016-02-20 23:08:29 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/intl/en/policies/privacy/
+2016-02-20 23:08:29 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/setprefdomain?prefdom=US&sig=__u2Tiio3HtY78sCsOj7bcNqcWaTU%3D
+2016-02-20 23:08:29 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/intl/en/about.html
+2016-02-20 23:08:29 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://plus.google.com/104205742743787718296
+2016-02-20 23:08:29 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : http://www.google.co.in/services/
+2016-02-20 23:08:30 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/intl/en/ads/ is a valid url
+2016-02-20 23:08:30 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:30 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:30 INFO  ValidatorWorkerThread:85 - http://www.google.co.in/services/ is a valid url
+2016-02-20 23:08:30 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:30 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:30 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/intl/en/about.html is a valid url
+2016-02-20 23:08:30 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:30 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:30 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/intl/en/policies/privacy/ is a valid url
+2016-02-20 23:08:30 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:30 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:31 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_J_d-YYeZHjIh9k5_jGp3EdC2ae0%3D&hl=gu&source=homepage is a valid url
+2016-02-20 23:08:31 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:31 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:31 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_J_d-YYeZHjIh9k5_jGp3EdC2ae0%3D&hl=kn&source=homepage is a valid url
+2016-02-20 23:08:31 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:31 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:32 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_J_d-YYeZHjIh9k5_jGp3EdC2ae0%3D&hl=ml&source=homepage is a valid url
+2016-02-20 23:08:32 WARN  HTMLDivElement:996 - Unimplemented behavior: #default#userdata
+2016-02-20 23:08:32 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:32 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefdomain?prefdom=US&sig=__u2Tiio3HtY78sCsOj7bcNqcWaTU%3D is a valid url
+2016-02-20 23:08:32 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:32 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:32 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:32 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/setprefs?sig=0_J_d-YYeZHjIh9k5_jGp3EdC2ae0%3D&hl=pa&source=homepage is a valid url
+2016-02-20 23:08:32 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:32 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:34 INFO  ValidatorWorkerThread:85 - https://plus.google.com/104205742743787718296 is a valid url
+2016-02-20 23:08:34 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:34 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:34 INFO  ValidatorWorkerFactory:53 - URL list identified as not empty
+2016-02-20 23:08:34 INFO  ValidatorWorkerThread:79 - Proceed to validate the URL : https://www.google.co.in/intl/en/policies/terms/
+2016-02-20 23:08:35 INFO  ValidatorWorkerThread:85 - https://www.google.co.in/intl/en/policies/terms/ is a valid url
+2016-02-20 23:08:35 INFO  ValidatorWorkerThread:90 - Cleaning up this htmlpage
+2016-02-20 23:08:35 INFO  ValidatorWorkerThread:100 - Proceed to update URL status to the HTML Report
+2016-02-20 23:08:35 INFO  ValidatorWorkerFactory:66 - Finished all validation threads
+2016-02-20 23:08:35 INFO  ValidatorWorkerFactory:92 - Total links validated : 39
+2016-02-20 23:08:35 INFO  ValidatorWorkerFactory:86 - Finished appending to the HTML Report
